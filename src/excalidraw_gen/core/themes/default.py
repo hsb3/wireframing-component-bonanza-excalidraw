@@ -13,17 +13,22 @@ class Theme:
     MUTED_FG = "#71717a"     # Zinc-500
     ACCENT = "#f4f4f5"       # Zinc-100
     ACCENT_FG = "#18181b"    # Zinc-900
-    BORDER = "#e4e4e7"       # Zinc-200
-    INPUT = "#e4e4e7"        # Zinc-200
+    BORDER = "#d4d4d8"       # Zinc-300 (increased contrast from #e4e4e7)
+    INPUT = "#d4d4d8"        # Zinc-300 (increased contrast from #e4e4e7)
     RING = "#000000"
-    BACKGROUND = "#ffffff"
+    BACKGROUND = "#fafafa"   # Zinc-50 (subtle gray instead of pure white)
     FOREGROUND = "#09090b"   # Zinc-950
 
     # --- Extended Grays ---
     GRAY_50 = "#f8fafc"      # Slate-50 (subtle backgrounds)
     GRAY_100 = "#f3f4f6"     # Gray-100 (neutral backgrounds)
     GRAY_300 = "#d1d5db"     # Gray-300 (borders, disabled)
+    GRAY_400 = "#a1a1aa"     # Zinc-400 (strong borders for emphasis)
     GRAY_700 = "#374151"     # Gray-700 (dark text)
+
+    # --- Border Variants (for enhanced visibility) ---
+    BORDER_LIGHT = "#e4e4e7"   # Zinc-200 (subtle dividers)
+    BORDER_STRONG = "#a1a1aa"  # Zinc-400 (emphasized borders)
 
     # --- Semantic Colors: Success (Green) ---
     SUCCESS = "#16a34a"          # Green-600 (primary success)

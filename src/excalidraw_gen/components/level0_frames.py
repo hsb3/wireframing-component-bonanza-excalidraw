@@ -2,26 +2,26 @@ from excalidraw_gen.core.themes.default import Theme
 
 def add_frames(b):
     """Device Frames & Layout Primitives"""
-    
-    # --- Device Frames ---
-    # Desktop
+
+    # --- Device Frames (scaled to 1/5 for proportionate wireframe sizing) ---
+    # Desktop (1440x900 → 288x180)
     b.add_item("Frame: Desktop (1440x900)", [
-        b.rectangle(0, 0, 1440, 900, backgroundColor=Theme.BACKGROUND, strokeColor=Theme.BORDER),
+        b.rectangle(0, 0, 288, 180, backgroundColor=Theme.BACKGROUND, strokeColor=Theme.BORDER),
         b.text(10, -25, "Desktop 1440px", fontSize=12, strokeColor=Theme.MUTED_FG)
     ])
 
-    # Tablet
+    # Tablet (768x1024 → 154x205)
     b.add_item("Frame: Tablet (768x1024)", [
-        b.rectangle(0, 0, 768, 1024, backgroundColor=Theme.BACKGROUND, strokeColor=Theme.BORDER),
+        b.rectangle(0, 0, 154, 205, backgroundColor=Theme.BACKGROUND, strokeColor=Theme.BORDER),
         b.text(10, -25, "Tablet 768px", fontSize=12, strokeColor=Theme.MUTED_FG)
     ])
 
-    # Mobile
+    # Mobile (375x812 → 75x162)
     b.add_item("Frame: Mobile (375x812)", [
-        b.rectangle(0, 0, 375, 812, backgroundColor=Theme.BACKGROUND, strokeColor=Theme.BORDER),
+        b.rectangle(0, 0, 75, 162, backgroundColor=Theme.BACKGROUND, strokeColor=Theme.BORDER),
         b.text(10, -25, "Mobile 375px", fontSize=12, strokeColor=Theme.MUTED_FG),
-        # notch mock
-        b.rectangle(87, 0, 200, 30, backgroundColor=Theme.PRIMARY, fillStyle="solid")
+        # notch mock (scaled proportionally)
+        b.rectangle(17, 0, 40, 6, backgroundColor=Theme.PRIMARY, fillStyle="solid")
     ])
 
     # --- Layout Primitives ---
