@@ -22,7 +22,7 @@ def main(theme_name='default', output_file='output/shadcn-saas-kit.excalidrawlib
     theme_module = types.ModuleType('theme')
     theme_module.Theme = selected_theme
     sys.modules['theme'] = theme_module
-    sys.modules['excalidraw_gen.core.themes.default'] = theme_module
+    sys.modules['excalidraw_gen.core.themes.mork'] = theme_module
 
     # Import components AFTER setting theme
     from excalidraw_gen.components import (

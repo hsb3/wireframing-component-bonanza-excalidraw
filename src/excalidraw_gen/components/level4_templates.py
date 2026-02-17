@@ -1,4 +1,4 @@
-from excalidraw_gen.core.themes.default import Theme
+from excalidraw_gen.core.themes.mork import Theme
 
 def add_templates(b):
     """Full page templates (D/Page/*)"""

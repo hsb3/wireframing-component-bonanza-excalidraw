@@ -1,4 +1,4 @@
-from excalidraw_gen.core.themes.default import Theme
+from excalidraw_gen.core.themes.mork import Theme
 
 def add_ai_patterns(b):
     """AI & Chat Patterns"""

@@ -1,10 +1,15 @@
 """
-IBM Carbon Design System theme (Gray 100 - Dark).
-Based on official Carbon Design System color tokens v11.
-Reference: https://carbondesignsystem.com/elements/color/tokens/
+abc123-dark: Dark mode wireframe theme
 
-Dark mode with high contrast and blue accents.
-Corporate/enterprise aesthetic with accessible color relationships.
+⚠️  IMPORTANT: Use with Excalidraw DARK MODE canvas
+This theme is designed for dark backgrounds. Components will be hard to see
+on light/white canvas. In Excalidraw, toggle dark mode before using this library.
+
+Features:
+- High contrast colors for dark backgrounds
+- Light borders (GRAY_40) visible on dark canvas
+- Clean, professional aesthetic
+- Corporate/enterprise design language
 """
 
 class Theme:

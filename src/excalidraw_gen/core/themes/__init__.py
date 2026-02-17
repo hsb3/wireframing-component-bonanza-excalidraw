@@ -3,22 +3,22 @@ Theme loader for Excalidraw library generation.
 Provides theme selection via name.
 """
 
-from .default import Theme as DefaultTheme
-from .carbon import Theme as CarbonTheme
-from .warm import Theme as WarmTheme
+from .mork import Theme as MorkTheme
+from .abc123_dark import Theme as Abc123DarkTheme
+from .bronzer import Theme as BronzerTheme
 
 AVAILABLE_THEMES = {
-    'default': DefaultTheme,
-    'carbon': CarbonTheme,
-    'warm': WarmTheme,
+    'mork': MorkTheme,
+    'abc123-dark': Abc123DarkTheme,
+    'bronzer': BronzerTheme,
 }
 
-def get_theme(name='default'):
+def get_theme(name='mork'):
     """
     Get theme by name.
 
     Args:
-        name: Theme name ('default', 'carbon', 'warm')
+        name: Theme name ('mork', 'abc123-dark', 'bronzer')
 
     Returns:
         Theme class
@@ -36,4 +36,4 @@ def list_themes():
     """Return list of available theme names."""
     return list(AVAILABLE_THEMES.keys())
 
-__all__ = ['get_theme', 'list_themes', 'AVAILABLE_THEMES', 'DefaultTheme', 'CarbonTheme', 'WarmTheme']
+__all__ = ['get_theme', 'list_themes', 'AVAILABLE_THEMES', 'MorkTheme', 'Abc123DarkTheme', 'BronzerTheme']

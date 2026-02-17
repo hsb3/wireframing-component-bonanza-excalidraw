@@ -8,19 +8,19 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 THEMES = {
-    "default": {
-        "library_file": "submission/shadcn-wireframe-default.excalidrawlib",
-        "output_file": "submission/shadcn-wireframe-default.png",
+    "mork": {
+        "library_file": "output/mork-wireframe-kit.excalidrawlib",
+        "output_file": "output/mork-wireframe-kit.png",
         "bg_color": "#ffffff"
     },
-    "carbon": {
-        "library_file": "submission/shadcn-wireframe-carbon.excalidrawlib",
-        "output_file": "submission/shadcn-wireframe-carbon.png",
+    "abc123-dark": {
+        "library_file": "output/abc123-dark-wireframe-kit.excalidrawlib",
+        "output_file": "output/abc123-dark-wireframe-kit.png",
         "bg_color": "#161616"
     },
-    "warm": {
-        "library_file": "submission/shadcn-wireframe-warm.excalidrawlib",
-        "output_file": "submission/shadcn-wireframe-warm.png",
+    "bronzer": {
+        "library_file": "output/bronzer-wireframe-kit.excalidrawlib",
+        "output_file": "output/bronzer-wireframe-kit.png",
         "bg_color": "#fef9f5"
     }
 }

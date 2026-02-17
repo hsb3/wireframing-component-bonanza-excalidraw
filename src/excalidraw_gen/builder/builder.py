@@ -1,7 +1,7 @@
 
 import random
 import time
-from excalidraw_gen.core.themes.default import Theme as DefaultTheme
+from excalidraw_gen.core.themes.mork import Theme as DefaultTheme
 
 def generate_id():
     return "".join(random.choices("abcdefghijklmnopqrstuvwxyz0123456789", k=20))

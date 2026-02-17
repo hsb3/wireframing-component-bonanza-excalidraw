@@ -17,30 +17,30 @@ def cli():
 Available themes: {', '.join(list_themes())}
 
 Examples:
-  python -m excalidraw_gen                        # Default theme
-  python -m excalidraw_gen --theme carbon         # IBM Carbon theme
-  python -m excalidraw_gen --theme warm -c 4      # Warm theme, 4 columns
-  uv run excalidraw-generate --theme carbon       # Using uv (recommended)
+  python -m excalidraw_gen                        # Mork theme (default)
+  python -m excalidraw_gen --theme abc123-dark    # Dark mode theme
+  python -m excalidraw_gen --theme bronzer -c 4   # Bronzer theme, 4 columns
+  uv run excalidraw-generate --theme mork         # Using uv (recommended)
         """
     )
     parser.add_argument(
         '--theme',
         '-t',
-        default='default',
+        default='mork',
         choices=list_themes(),
-        help='Theme to use (default: default)'
+        help='Theme to use (default: mork)'
     )
     parser.add_argument(
         '--output',
         '-o',
-        default='output/shadcn-saas-kit.excalidrawlib',
-        help='Output filename for library (default: output/shadcn-saas-kit.excalidrawlib)'
+        default='output/mork-wireframe-kit.excalidrawlib',
+        help='Output filename for library (default: output/mork-wireframe-kit.excalidrawlib)'
     )
     parser.add_argument(
         '--preview',
         '-p',
-        default='output/shadcn-saas-kit-preview.excalidraw',
-        help='Output filename for preview (default: output/shadcn-saas-kit-preview.excalidraw)'
+        default='output/mork-wireframe-kit-preview.excalidraw',
+        help='Output filename for preview (default: output/mork-wireframe-kit-preview.excalidraw)'
     )
     parser.add_argument(
         '--no-preview',
