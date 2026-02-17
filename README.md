@@ -75,22 +75,34 @@ Inspired by [shadcn/ui](https://ui.shadcn.com/), but optimized for low-fidelity 
 
 ## Available Themes
 
+### Default - Grayscale Wireframes
+
+![Default Theme Preview](submission/shadcn-wireframe-default.png)
+
 **default** - Original grayscale wireframe style
 - Hand-drawn Virgil font
 - Pure grayscale (black/white/gray)
 - Sketchy aesthetic (roughness=1)
 
+### Carbon - IBM Carbon Design System
+
+![Carbon Theme Preview](submission/shadcn-wireframe-carbon.png)
+
 **carbon** - IBM Carbon Design System inspired
 - Dark mode (#161616 background)
 - High contrast with blue accents (#0f62fe)
 - Clean, corporate aesthetic (roughness=0)
-- Helvetica font
+- Cascadia monospace font
+
+### Warm - Friendly Earth Tones
+
+![Warm Theme Preview](submission/shadcn-wireframe-warm.png)
 
 **warm** - Warm earthy tones
 - Beiges, soft browns, warm grays
 - Friendly, approachable feel
 - Hand-drawn style (roughness=2)
-- Olive green success, slate blue info
+- Warm color accents
 
 ## Project Structure
 
