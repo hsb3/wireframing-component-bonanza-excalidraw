@@ -10,8 +10,10 @@ readme = "README.md"
 license = {text = "MIT"}
 
 dependencies = [
+    "cairosvg>=2.8.2",
     "pillow>=12.1.1",
     "playwright>=1.58.0",
+    "svgwrite>=1.4.3",
 ]
 
 [project.scripts]

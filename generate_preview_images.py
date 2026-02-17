@@ -1,159 +1,252 @@
 #!/usr/bin/env python3
 """
-Generate preview images for Excalidraw library submissions.
-Creates informative preview graphics showing library contents.
+Generate preview images by rendering Excalidraw components using Pillow.
+Creates a grid layout showing ~20-25 representative components.
 """
 import json
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
-import textwrap
 
-# Theme configurations
 THEMES = {
     "default": {
-        "name": "shadcn Wireframe Kit (Default)",
-        "bg_color": "#ffffff",
-        "primary": "#000000",
-        "secondary": "#71717a",
-        "accent": "#f4f4f5",
-        "description": "Hand-drawn grayscale wireframes"
+        "library_file": "submission/shadcn-wireframe-default.excalidrawlib",
+        "output_file": "submission/shadcn-wireframe-default.png",
+        "bg_color": "#ffffff"
     },
     "carbon": {
-        "name": "shadcn Wireframe Kit (Carbon)",
-        "bg_color": "#161616",
-        "primary": "#f4f4f4",
-        "secondary": "#c6c6c6",
-        "accent": "#0f62fe",
-        "description": "IBM Carbon Design System (Dark)"
+        "library_file": "submission/shadcn-wireframe-carbon.excalidrawlib",
+        "output_file": "submission/shadcn-wireframe-carbon.png",
+        "bg_color": "#161616"
     },
     "warm": {
-        "name": "shadcn Wireframe Kit (Warm)",
-        "bg_color": "#fef9f5",
-        "primary": "#78350f",
-        "secondary": "#92400e",
-        "accent": "#f59e0b",
-        "description": "Warm, friendly color palette"
+        "library_file": "submission/shadcn-wireframe-warm.excalidrawlib",
+        "output_file": "submission/shadcn-wireframe-warm.png",
+        "bg_color": "#fef9f5"
     }
 }
 
-COMPONENT_CATEGORIES = [
-    ("Frames & Layout", ["Desktop Frame", "Mobile Frame", "Tablet Frame", "Grids"]),
-    ("UI Primitives", ["Buttons", "Icons", "Badges", "Avatars", "Typography"]),
-    ("Form Elements", ["Inputs", "Dropdowns", "Checkboxes", "Sliders", "Upload"]),
-    ("Data Display", ["Tables", "Charts", "Cards", "Stats", "Progress"]),
-    ("Navigation", ["Navbar", "Tabs", "Breadcrumbs", "Pagination"]),
-    ("SaaS Patterns", ["Dashboards", "Login Forms", "Settings", "Data Tables"]),
-    ("AI Components", ["Chat Interface", "Message Bubbles", "Tool Cards"])
+# Components to showcase - more comprehensive like reference image
+SHOWCASE_PATTERNS = [
+    "Desktop", "Mobile", "Tablet",
+    "Button", "Input", "Dropdown", "Checkbox", "Switch", "Radio", "Toggle",
+    "Card", "Navbar", "Tab", "Sidebar", "Breadcrumb",
+    "Chart", "Table", "Progress", "Stats", "Metric",
+    "Dashboard", "Login", "Settings", "Profile",
+    "Chat", "Message", "Avatar", "Badge", "Icon",
+    "Dialog", "Modal", "Alert", "Toast", "Notification",
+    "Calendar", "Date", "Picker",
+    "Form", "Search", "Upload", "Select",
+    "Menu", "Nav", "Header", "Footer",
+    "Data", "Grid", "List"
 ]
 
 
-def create_preview_image(theme_key, output_path):
-    """Create a preview image for the given theme."""
-    theme = THEMES[theme_key]
+def hex_to_rgb(hex_color):
+    """Convert hex color to RGB tuple."""
+    hex_color = hex_color.lstrip('#')
+    if hex_color == 'transparent':
+        return None
+    return tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
 
-    # Image dimensions
-    width, height = 1200, 800
+
+def render_element(draw, element, scale=1.0, offset_x=0, offset_y=0):
+    """Render a single Excalidraw element."""
+    el_type = element.get('type')
+    x = int((element.get('x', 0) + offset_x) * scale)
+    y = int((element.get('y', 0) + offset_y) * scale)
+
+    stroke_color = element.get('strokeColor', '#000000')
+    fill_color = element.get('backgroundColor', 'transparent')
+    stroke_width = max(1, int(element.get('strokeWidth', 1) * scale))
+
+    stroke_rgb = hex_to_rgb(stroke_color)
+    fill_rgb = hex_to_rgb(fill_color)
+
+    if el_type == 'rectangle':
+        width = int(element.get('width', 0) * scale)
+        height = int(element.get('height', 0) * scale)
+
+        if fill_rgb:
+            draw.rectangle([x, y, x + width, y + height], fill=fill_rgb)
+        if stroke_rgb:
+            draw.rectangle([x, y, x + width, y + height], outline=stroke_rgb, width=stroke_width)
+
+    elif el_type == 'ellipse':
+        width = int(element.get('width', 0) * scale)
+        height = int(element.get('height', 0) * scale)
+
+        if fill_rgb:
+            draw.ellipse([x, y, x + width, y + height], fill=fill_rgb)
+        if stroke_rgb:
+            draw.ellipse([x, y, x + width, y + height], outline=stroke_rgb, width=stroke_width)
+
+    elif el_type in ('line', 'arrow'):
+        points = element.get('points', [[0, 0]])
+        coords = []
+        for px, py in points:
+            coords.extend([int((x + px) * scale), int((y + py) * scale)])
+
+        if stroke_rgb and len(coords) >= 4:
+            draw.line(coords, fill=stroke_rgb, width=stroke_width)
+
+    elif el_type == 'text':
+        text = element.get('text', '')
+        font_size = max(8, int(element.get('fontSize', 16) * scale))
+
+        try:
+            font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", font_size)
+        except:
+            font = ImageFont.load_default()
+
+        if stroke_rgb and text:
+            draw.text((x, y), text, fill=stroke_rgb, font=font)
+
+
+def get_element_bounds(elements):
+    """Calculate bounding box of elements."""
+    if not elements:
+        return 0, 0, 100, 100
+
+    xs = []
+    ys = []
+    for el in elements:
+        x = el.get('x', 0)
+        y = el.get('y', 0)
+        xs.extend([x, x + el.get('width', 0)])
+        ys.extend([y, y + el.get('height', 0)])
+
+    return min(xs), min(ys), max(xs) - min(xs), max(ys) - min(ys)
+
+
+def select_showcase_components(library_file):
+    """Select representative components."""
+    with open(library_file, 'r') as f:
+        data = json.load(f)
+
+    library_items = data.get('libraryItems', [])
+    selected = []
+
+    # Try to match each pattern
+    for pattern in SHOWCASE_PATTERNS:
+        for item in library_items:
+            name = item.get('name', '')
+            if pattern.lower() in name.lower() and item not in selected:
+                selected.append(item)
+                break
+        if len(selected) >= 48:  # 6x8 grid
+            break
+
+    # Fill up to 48 if needed
+    for item in library_items:
+        if item not in selected:
+            selected.append(item)
+        if len(selected) >= 48:
+            break
+
+    return selected[:48]
+
+
+def create_preview_image(library_file, output_file, bg_color):
+    """Create preview image with grid of components."""
+    print(f"  Loading {Path(library_file).name}...")
+
+    if not Path(library_file).exists():
+        print(f"  ❌ File not found")
+        return False
+
+    components = select_showcase_components(library_file)
+    print(f"  Selected {len(components)} components")
+
+    # Grid configuration - show more components like reference
+    columns = 6
+    rows = 8
+    cell_width = 200
+    cell_height = 150
+    padding = 12
 
     # Create image
-    img = Image.new('RGB', (width, height), theme["bg_color"])
+    img_width = columns * cell_width
+    img_height = rows * cell_height
+
+    img = Image.new('RGB', (img_width, img_height), hex_to_rgb(bg_color))
     draw = ImageDraw.Draw(img)
 
-    # Try to load a font, fall back to default if not available
-    try:
-        title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 48)
-        header_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 32)
-        body_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 20)
-        small_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 16)
-    except:
-        # Fallback to default font
-        title_font = ImageFont.load_default()
-        header_font = ImageFont.load_default()
-        body_font = ImageFont.load_default()
-        small_font = ImageFont.load_default()
+    print(f"  Rendering {len(components)} components in {columns}x{rows} grid...")
 
-    # Draw title
-    y_pos = 50
-    draw.text((60, y_pos), theme["name"], fill=theme["primary"], font=title_font)
-    y_pos += 60
+    # Render each component
+    for idx, item in enumerate(components[:48]):
+        if idx >= columns * rows:
+            break
 
-    # Draw description
-    draw.text((60, y_pos), theme["description"], fill=theme["secondary"], font=body_font)
-    y_pos += 40
+        row = idx // columns
+        col = idx % columns
 
-    # Draw component count badge
-    badge_text = "154 Components"
-    badge_x, badge_y = 60, y_pos
-    badge_width, badge_height = 200, 40
-    draw.rounded_rectangle(
-        [(badge_x, badge_y), (badge_x + badge_width, badge_y + badge_height)],
-        radius=8,
-        fill=theme["accent"]
-    )
-    # Calculate text position for centering
-    text_bbox = draw.textbbox((0, 0), badge_text, font=body_font)
-    text_width = text_bbox[2] - text_bbox[0]
-    text_height = text_bbox[3] - text_bbox[1]
-    text_x = badge_x + (badge_width - text_width) // 2
-    text_y = badge_y + (badge_height - text_height) // 2
-    text_color = theme["bg_color"] if theme_key != "default" else theme["primary"]
-    draw.text((text_x, text_y), badge_text, fill=text_color, font=body_font)
-    y_pos += 80
+        cell_x = col * cell_width
+        cell_y = row * cell_height
 
-    # Draw component categories in two columns
-    draw.text((60, y_pos), "Component Categories", fill=theme["primary"], font=header_font)
-    y_pos += 50
+        elements = item.get('elements', [])
+        if not elements:
+            continue
 
-    # Left column
-    col1_x = 60
-    col2_x = 620
-    col_y = y_pos
+        # Get bounds
+        min_x, min_y, width, height = get_element_bounds(elements)
 
-    for i, (category, components) in enumerate(COMPONENT_CATEGORIES):
-        x_pos = col1_x if i < 4 else col2_x
+        # Calculate scale to fit in cell
+        max_size = min(cell_width - 2*padding, cell_height - 2*padding)
+        if width > 0 and height > 0:
+            scale = min(max_size / width, max_size / height, 1.5)
+        else:
+            scale = 1.0
 
-        if i == 4:
-            col_y = y_pos  # Reset y for second column
+        # Center in cell
+        offset_x = cell_x + (cell_width - width * scale) / 2 - min_x * scale
+        offset_y = cell_y + (cell_height - height * scale) / 2 - min_y * scale
 
-        # Category name
-        draw.text((x_pos, col_y), f"• {category}", fill=theme["primary"], font=body_font)
-        col_y += 35
+        # Render each element
+        for element in elements:
+            render_element(draw, element, scale, offset_x / scale, offset_y / scale)
 
-        # Component items (indented)
-        for comp in components[:3]:  # Show first 3
-            draw.text((x_pos + 20, col_y), comp, fill=theme["secondary"], font=small_font)
-            col_y += 25
+    # Save
+    img.save(output_file, 'PNG', optimize=True)
 
-        if i < 3:  # Add spacing between categories in left column
-            col_y += 15
-        elif i >= 4:  # Add spacing in right column
-            col_y += 15
-
-    # Draw footer
-    footer_y = height - 60
-    draw.text((60, footer_y), "github.com/hsb3/shadcn-excalidraw", fill=theme["secondary"], font=small_font)
-    draw.text((width - 200, footer_y), "MIT License", fill=theme["secondary"], font=small_font)
-
-    # Save image
-    img.save(output_path, 'PNG', optimize=True)
-    print(f"✓ Created {output_path}")
+    size_kb = Path(output_file).stat().st_size / 1024
+    print(f"  ✓ Created {Path(output_file).name} ({size_kb:.1f} KB)")
+    return True
 
 
 def main():
-    """Generate preview images for all themes."""
-    output_dir = Path("submission")
-    output_dir.mkdir(exist_ok=True)
+    """Generate all preview images."""
+    print("=" * 70)
+    print("GENERATING PREVIEW IMAGES (Grid Layout)")
+    print("=" * 70)
+    print()
 
-    print("Generating preview images...\n")
+    Path("submission").mkdir(exist_ok=True)
 
-    for theme_key in THEMES.keys():
-        output_path = output_dir / f"shadcn-wireframe-{theme_key}.png"
-        create_preview_image(theme_key, output_path)
+    for theme_key, config in THEMES.items():
+        print(f"📸 {theme_key.upper()} theme:")
+        try:
+            create_preview_image(
+                config["library_file"],
+                config["output_file"],
+                config["bg_color"]
+            )
+        except Exception as e:
+            print(f"  ❌ Error: {e}")
+            import traceback
+            traceback.print_exc()
+        print()
 
-    print("\n✅ All preview images generated!")
-    print(f"\nSaved to {output_dir}/")
-    print("  - shadcn-wireframe-default.png")
-    print("  - shadcn-wireframe-carbon.png")
-    print("  - shadcn-wireframe-warm.png")
+    print("=" * 70)
+    print("✅ COMPLETE")
+    print("=" * 70)
+    print()
+    for theme_key, config in THEMES.items():
+        output_path = Path(config["output_file"])
+        if output_path.exists():
+            size_kb = output_path.stat().st_size / 1024
+            print(f"  ✓ {output_path.name} ({size_kb:.1f} KB)")
+    print()
 
 
 if __name__ == "__main__":

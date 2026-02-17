@@ -65,24 +65,25 @@ class Theme:
     PRIMARY = BLUE_60            # Primary interactive color (buttons, links)
     PRIMARY_FG = "#ffffff"       # Text on primary color
 
-    SECONDARY = GRAY_80          # Secondary surfaces
+    SECONDARY = GRAY_70          # Secondary surfaces (elevated from background)
     SECONDARY_FG = GRAY_10       # Text on secondary surfaces
 
-    MUTED = GRAY_90              # Muted backgrounds
-    MUTED_FG = GRAY_30           # Text on muted backgrounds
+    MUTED = GRAY_80              # Muted backgrounds (layer 1)
+    MUTED_FG = GRAY_20           # Text on muted backgrounds (lighter for contrast)
 
     ACCENT = BLUE_60             # Accent color for highlights
     ACCENT_FG = "#ffffff"        # Text on accent color
 
     # --- Border Tokens ---
-    BORDER = GRAY_70             # Subtle borders (borderSubtle01)
-    BORDER_STRONG = GRAY_60      # Strong emphasis borders
+    # For dark theme: borders need to be MUCH lighter to show up
+    BORDER = GRAY_40             # Subtle borders (high contrast on dark bg)
+    BORDER_STRONG = GRAY_30      # Strong emphasis borders (very light)
     BORDER_INTERACTIVE = BLUE_50 # Interactive element borders
     BORDER_INVERSE = GRAY_10     # Borders on dark backgrounds
 
     # --- Input/Field Tokens ---
-    INPUT = GRAY_90              # Input field background
-    RING = BLUE_60               # Focus ring color
+    INPUT = GRAY_80              # Input field background (elevated)
+    RING = BLUE_50               # Focus ring color
 
     # --- Link Tokens ---
     LINK_PRIMARY = BLUE_40       # Primary links
