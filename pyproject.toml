@@ -1,0 +1,25 @@
+[project]
+name = "shadcn-excalidraw"
+version = "0.1.0"
+description = "Hand-drawn Excalidraw component library for wireframing SaaS and AI applications"
+authors = [
+    {name = "Henry Burden", email = "hsb3@users.noreply.github.com"}
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+dependencies = []
+
+[project.scripts]
+excalidraw-generate = "excalidraw_gen.cli:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/excalidraw_gen"]
