@@ -95,7 +95,7 @@ Inspired by [shadcn/ui](https://ui.shadcn.com/), but optimized for low-fidelity 
 ## Project Structure
 
 ```
-shadcn-excalidraw/
+root/
 ├── pyproject.toml           # uv-compatible package config
 ├── output/                  # Generated libraries (gitignored)
 └── src/
