@@ -1,0 +1,24 @@
+[project]
+name = "wireframe-agent-backend"
+version = "0.1.0"
+description = "LangGraph deep agent for AI-driven wireframe generation"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.4.4",
+    "langchain-anthropic>=0.5.0",
+    "langchain-core>=0.3.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.32.0",
+    "httpx>=0.28.0",
+    "pillow>=12.0.0",
+]
+
+[project.scripts]
+start = "uvicorn src.agent.app:app --reload --port 8000"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]

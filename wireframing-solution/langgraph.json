@@ -1,0 +1,10 @@
+{
+  "graphs": {
+    "agent": "./backend/src/agent/graph.py:graph"
+  },
+  "http": {
+    "app": "./backend/src/agent/app.py:app"
+  },
+  "env": ".env",
+  "python_version": "3.11"
+}

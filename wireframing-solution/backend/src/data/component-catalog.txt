@@ -1,0 +1,1689 @@
+# Wireframe Component Catalog
+
+## Theme: ABC123-DARK (154 components)
+
+### AI (10)
+- AI: User Bubble - Component with 2 elements (300×50px)
+- AI: Response Bubble - Component with 3 elements (360×80px)
+- AI: Prompt Input - Text input field (600×60px)
+- AI: Code Artifact - Component with 3 elements (400×120px)
+- AI: Thinking - Component with 3 elements (38×8px)
+- AI: Chat Thread - Component with 6 elements (400×500px)
+- AI: Tool Call (Card) - Container card component (300×50px)
+- AI: Citations (Inline) - Component with 4 elements (434×27px)
+- AI: Streaming Cursor - Component with 2 elements (152×27px)
+- AI: Message Meta - Component with 4 elements (201×22px)
+
+### Accordion (2)
+- B/Accordion/Item - Component with 3 elements (400×50px)
+- B/Accordion/Item/Expanded - Component with 5 elements (422×140px)
+
+### Alert (1)
+- A/Alert/Info - Component with 2 elements (400×50px)
+
+### Avatar (1)
+- A/Avatar/Circle - Component with 2 elements (40×40px)
+
+### Badge (1)
+- A/Badge/Status - Component with 2 elements (60×22px)
+
+### Block (17)
+- C/Block/Mobile/DrawerNav - Component with 6 elements (300×844px)
+- C/Block/Marketing/Hero - Component with 5 elements (1200×400px)
+- C/Block/Marketing/FeatureGrid - Component with 12 elements (983×200px)
+- C/Block/CRUD/List+Table - Data table component (800×380px)
+- C/Block/CRUD/SettingsNav - Component with 7 elements (240×400px)
+- C/Block/Dashboard/KPIGrid - Dashboard layout (760×120px)
+- C/Block/SearchResults/List - Component with 6 elements (680×179px)
+- C/Block/AlertDialog - Component with 7 elements (962×250px)
+- C/Block/AspectRatio - Component with 3 elements (400×225px)
+- C/Block/Skeleton/Complex - Component with 5 elements (400×120px)
+  ... and 7 more
+
+### Button (7)
+- A/Button/Loading - Interactive button component (120×40px)
+- Button: Primary - Interactive button component (120×40px)
+- Button: Secondary - Interactive button component (120×40px)
+- Button: Outline - Interactive button component (120×40px)
+- Button: Ghost - Interactive button component (120×40px)
+- Button: Destructive - Interactive button component (120×40px)
+- Button: Link - Interactive button component (104×27px)
+
+### Calendar (1)
+- B/Calendar - Component with 15 elements (282×280px)
+
+### Card (3)
+- B/Card/Metric/Trend - Container card component (240×120px)
+- B/Card/ListItem - Container card component (400×80px)
+- B/Card/Pricing - Container card component (280×400px)
+
+### Carousel (1)
+- B/Carousel - Component with 9 elements (400×250px)
+
+### Chart (3)
+- B/Chart/Placeholder/Line - Chart visualization (300×230px)
+- B/Chart/Placeholder/Bar - Chart visualization (300×150px)
+- B/Chart/Placeholder/Pie - Chart visualization (200×200px)
+
+### Collapsible (1)
+- B/Collapsible - Component with 3 elements (300×50px)
+
+### Command (1)
+- B/Command/Palette - Component with 10 elements (500×350px)
+
+### ContextMenu (1)
+- B/ContextMenu - Component with 11 elements (180×200px)
+
+### Control (6)
+- Control: Checkbox - Component with 2 elements (143×27px)
+- Control: Checkbox (Active) - Component with 2 elements (20×20px)
+- Control: Radio - Component with 2 elements (95×27px)
+- Control: Radio (Active) - Component with 2 elements (20×20px)
+- Control: Switch - Component with 2 elements (44×24px)
+- Control: Slider - Component with 3 elements (200×20px)
+
+### Data (4)
+- Data: KPI Row - Component with 12 elements (580×100px)
+- Data: Chart (Pie) - Chart visualization (262×150px)
+- B/Data/Timeline - Component with 7 elements (213×205px)
+- B/Data/KanbanColumn - Component with 8 elements (260×600px)
+
+### EmptyState (1)
+- A/EmptyState - Component with 5 elements (160×200px)
+
+### Form (12)
+- Form: Field (Label+Input) - Text input field (250×65px)
+- Form: Field (Error) - Component with 3 elements (250×92px)
+- Form: OTP Input - Text input field (190×50px)
+- B/Form/Input/Number - Text input field (280×65px)
+- B/Form/Input/Slider - Text input field (253×44px)
+- B/Form/Input/ColorPicker - Text input field (116×65px)
+- B/Form/Input/Tags - Text input field (400×65px)
+- B/Form/InputGroup/WithButton - Interactive button component (280×40px)
+- B/Form/InputGroup/WithIcon - Text input field (250×40px)
+- B/Form/InputGroup/WithAddon - Text input field (250×40px)
+  ... and 2 more
+
+### Frame (3)
+- Frame: Desktop (1440x900) - Device frame container (288×205px)
+- Frame: Tablet (768x1024) - Data table component (154×230px)
+- Frame: Mobile (375x812) - Device frame container (104×187px)
+
+### Header (2)
+- C/Header/PageTitle+Actions - Component with 7 elements (800×80px)
+- C/Header/FilterBar - Component with 9 elements (800×60px)
+
+### HoverCard (1)
+- B/HoverCard - Container card component (280×140px)
+
+### Icon (6)
+- Icon: Search - Component with 2 elements (20×20px)
+- Icon: User - Component with 2 elements (24×14px)
+- Icon: Settings - Component with 2 elements (24×24px)
+- Icon: Close - Component with 2 elements (16×16px)
+- Icon: Menu - Component with 3 elements (24×16px)
+- A/Icon/Placeholder - Component with 3 elements (24×24px)
+
+### Input (9)
+- Input: Text - Text input field (250×40px)
+- Input: Search - Text input field (250×40px)
+- Input: Select - Text input field (200×40px)
+- Input: Textarea - Text input field (250×100px)
+- Input: Date Picker - Text input field (200×40px)
+- Input: Search Bar - Text input field (300×40px)
+- Input: Button Group - Interactive button component (240×40px)
+- Input: Upload Dropzone - Text input field (400×150px)
+- Input: Amount - Text input field (200×40px)
+
+### Kbd (1)
+- A/Kbd - Component with 2 elements (40×28px)
+
+### Layout (4)
+- Layout: Divider Horizontal - Component with 1 elements (300×0px)
+- Layout: Divider Vertical - Component with 1 elements (0×300px)
+- Layout: Grid 12-col - Component with 12 elements (940×200px)
+- Layout: Scroll Area - Component with 2 elements (300×400px)
+
+### Menubar (1)
+- B/Menubar - Component with 5 elements (600×40px)
+
+### Module (7)
+- Module: Avatar Group - Component with 4 elements (90×40px)
+- Module: Menu Item - Component with 3 elements (200×40px)
+- Module: Card (Simple) - Container card component (380×180px)
+- Module: Accordion - Component with 6 elements (459×77px)
+- Module: Tabs - Component with 4 elements (320×40px)
+- Module: Breadcrumb - Component with 5 elements (249×27px)
+- Module: Pagination - Component with 6 elements (196×32px)
+
+### Nav (4)
+- Nav: Sidebar (Collapsed) - Component with 6 elements (60×500px)
+- B/Nav/Tabs/Line - Component with 6 elements (350×27px)
+- B/Nav/Menu/Vertical - Component with 6 elements (200×160px)
+- B/Nav/WizardSteps - Component with 11 elements (415×32px)
+
+### NavigationMenu (1)
+- B/NavigationMenu - Component with 5 elements (500×40px)
+
+### Overlay (5)
+- Overlay: Modal (Confirm) - Component with 7 elements (400×200px)
+- Overlay: Drawer (Right) - Component with 7 elements (300×800px)
+- B/Overlay/Toast - Component with 3 elements (300×60px)
+- B/Overlay/ToastStack - Component with 4 elements (320×130px)
+- B/Overlay/Modal/Complex - Component with 16 elements (600×400px)
+
+### Page (2)
+- D/Page/Dashboard - Dashboard layout (1440×900px)
+- D/Page/Chat/AppShell - Component with 6 elements (1100×900px)
+
+### Popover (1)
+- B/Popover - Component with 7 elements (250×120px)
+
+### Progress (1)
+- A/Progress/Bar - Component with 2 elements (200×8px)
+
+### Resizable (1)
+- B/Resizable/Panels - Component with 5 elements (600×300px)
+
+### SaaS (10)
+- SaaS: Sidebar - Component with 13 elements (240×500px)
+- SaaS: Navbar - Component with 7 elements (800×60px)
+- SaaS: Page Header - Component with 4 elements (740×67px)
+- SaaS: Metric Card - Container card component (240×120px)
+- SaaS: Chart (Bar) - Chart visualization (400×200px)
+- SaaS: Data Table - Data table component (600×200px)
+- SaaS: Login Form - Login form component (360×340px)
+- SaaS: CRUD Table (+Filters) - Data table component (800×400px)
+- SaaS: Metrics Grid - Component with 12 elements (760×120px)
+- SaaS: Faceted Search - Component with 12 elements (820×600px)
+
+### ScrollArea (1)
+- B/ScrollArea - Component with 8 elements (300×200px)
+
+### Separator (2)
+- A/Separator/Horizontal - Component with 1 elements (200×0px)
+- A/Separator/Vertical - Component with 1 elements (0×200px)
+
+### Sheet (1)
+- B/Sheet - Component with 7 elements (400×600px)
+
+### Shell (5)
+- C/Shell/App/3Pane - Component with 6 elements (1200×800px)
+- C/Shell/BrowserWindow - Component with 7 elements (1024×768px)
+- C/Shell/SplitView - Component with 4 elements (1200×800px)
+- C/Shell/RightInspector - Component with 4 elements (1200×800px)
+- C/Shell/Mobile/BottomNav - Component with 5 elements (390×60px)
+
+### Skeleton (1)
+- A/Skeleton/Line - Component with 1 elements (200×20px)
+
+### Spinner (1)
+- A/Spinner - Component with 2 elements (24×24px)
+
+### Stepper (1)
+- A/Stepper - Component with 8 elements (152×26px)
+
+### Text (2)
+- A/Text/Link - Component with 1 elements (94×27px)
+- A/Text/CodeInline - Component with 1 elements (132×27px)
+
+### Toggle (2)
+- A/Toggle - Component with 2 elements (40×40px)
+- A/Toggle/Active - Component with 2 elements (40×40px)
+
+### Tooltip (1)
+- B/Tooltip - Component with 3 elements (120×35px)
+
+### Type (5)
+- Type: H1 - Component with 1 elements (202×51px)
+- Type: H2 - Component with 1 elements (170×44px)
+- Type: H3 - Component with 1 elements (137×36px)
+- Type: Body - Component with 1 elements (536×32px)
+- Type: Small - Component with 1 elements (219×27px)
+
+## Theme: MORK (154 components)
+
+### AI (10)
+- AI: User Bubble - Component with 2 elements (300×50px)
+- AI: Response Bubble - Component with 3 elements (360×80px)
+- AI: Prompt Input - Text input field (600×60px)
+- AI: Code Artifact - Component with 3 elements (400×120px)
+- AI: Thinking - Component with 3 elements (38×8px)
+- AI: Chat Thread - Component with 6 elements (400×500px)
+- AI: Tool Call (Card) - Container card component (300×50px)
+- AI: Citations (Inline) - Component with 4 elements (451×27px)
+- AI: Streaming Cursor - Component with 2 elements (164×27px)
+- AI: Message Meta - Component with 4 elements (201×22px)
+
+### Accordion (2)
+- B/Accordion/Item - Component with 3 elements (400×50px)
+- B/Accordion/Item/Expanded - Component with 5 elements (455×140px)
+
+### Alert (1)
+- A/Alert/Info - Component with 2 elements (400×50px)
+
+### Avatar (1)
+- A/Avatar/Circle - Component with 2 elements (40×40px)
+
+### Badge (1)
+- A/Badge/Status - Component with 2 elements (60×22px)
+
+### Block (17)
+- C/Block/Mobile/DrawerNav - Component with 6 elements (300×844px)
+- C/Block/Marketing/Hero - Component with 5 elements (1200×400px)
+- C/Block/Marketing/FeatureGrid - Component with 12 elements (1012×200px)
+- C/Block/CRUD/List+Table - Data table component (800×380px)
+- C/Block/CRUD/SettingsNav - Component with 7 elements (240×400px)
+- C/Block/Dashboard/KPIGrid - Dashboard layout (760×120px)
+- C/Block/SearchResults/List - Component with 6 elements (736×179px)
+- C/Block/AlertDialog - Component with 7 elements (1039×250px)
+- C/Block/AspectRatio - Component with 3 elements (400×225px)
+- C/Block/Skeleton/Complex - Component with 5 elements (400×120px)
+  ... and 7 more
+
+### Button (7)
+- A/Button/Loading - Interactive button component (120×40px)
+- Button: Primary - Interactive button component (120×40px)
+- Button: Secondary - Interactive button component (120×40px)
+- Button: Outline - Interactive button component (120×40px)
+- Button: Ghost - Interactive button component (120×40px)
+- Button: Destructive - Interactive button component (120×40px)
+- Button: Link - Interactive button component (112×27px)
+
+### Calendar (1)
+- B/Calendar - Component with 15 elements (283×280px)
+
+### Card (3)
+- B/Card/Metric/Trend - Container card component (240×120px)
+- B/Card/ListItem - Container card component (400×80px)
+- B/Card/Pricing - Container card component (280×400px)
+
+### Carousel (1)
+- B/Carousel - Component with 9 elements (400×250px)
+
+### Chart (3)
+- B/Chart/Placeholder/Line - Chart visualization (300×230px)
+- B/Chart/Placeholder/Bar - Chart visualization (300×150px)
+- B/Chart/Placeholder/Pie - Chart visualization (200×200px)
+
+### Collapsible (1)
+- B/Collapsible - Component with 3 elements (319×50px)
+
+### Command (1)
+- B/Command/Palette - Component with 10 elements (500×350px)
+
+### ContextMenu (1)
+- B/ContextMenu - Component with 11 elements (180×200px)
+
+### Control (6)
+- Control: Checkbox - Component with 2 elements (152×27px)
+- Control: Checkbox (Active) - Component with 2 elements (20×20px)
+- Control: Radio - Component with 2 elements (100×27px)
+- Control: Radio (Active) - Component with 2 elements (20×20px)
+- Control: Switch - Component with 2 elements (44×24px)
+- Control: Slider - Component with 3 elements (200×20px)
+
+### Data (4)
+- Data: KPI Row - Component with 12 elements (580×100px)
+- Data: Chart (Pie) - Chart visualization (269×150px)
+- B/Data/Timeline - Component with 7 elements (228×205px)
+- B/Data/KanbanColumn - Component with 8 elements (260×600px)
+
+### EmptyState (1)
+- A/EmptyState - Component with 5 elements (160×200px)
+
+### Form (12)
+- Form: Field (Label+Input) - Text input field (250×65px)
+- Form: Field (Error) - Component with 3 elements (250×92px)
+- Form: OTP Input - Text input field (190×50px)
+- B/Form/Input/Number - Text input field (280×65px)
+- B/Form/Input/Slider - Text input field (255×44px)
+- B/Form/Input/ColorPicker - Text input field (117×65px)
+- B/Form/Input/Tags - Text input field (400×65px)
+- B/Form/InputGroup/WithButton - Interactive button component (280×40px)
+- B/Form/InputGroup/WithIcon - Text input field (250×40px)
+- B/Form/InputGroup/WithAddon - Text input field (250×40px)
+  ... and 2 more
+
+### Frame (3)
+- Frame: Desktop (1440x900) - Device frame container (288×205px)
+- Frame: Tablet (768x1024) - Data table component (154×230px)
+- Frame: Mobile (375x812) - Device frame container (111×187px)
+
+### Header (2)
+- C/Header/PageTitle+Actions - Component with 7 elements (800×80px)
+- C/Header/FilterBar - Component with 9 elements (800×60px)
+
+### HoverCard (1)
+- B/HoverCard - Container card component (280×140px)
+
+### Icon (6)
+- Icon: Search - Component with 2 elements (20×20px)
+- Icon: User - Component with 2 elements (24×14px)
+- Icon: Settings - Component with 2 elements (24×24px)
+- Icon: Close - Component with 2 elements (16×16px)
+- Icon: Menu - Component with 3 elements (24×16px)
+- A/Icon/Placeholder - Component with 3 elements (24×24px)
+
+### Input (9)
+- Input: Text - Text input field (250×40px)
+- Input: Search - Text input field (250×40px)
+- Input: Select - Text input field (200×40px)
+- Input: Textarea - Text input field (250×100px)
+- Input: Date Picker - Text input field (200×40px)
+- Input: Search Bar - Text input field (300×40px)
+- Input: Button Group - Interactive button component (240×40px)
+- Input: Upload Dropzone - Text input field (400×150px)
+- Input: Amount - Text input field (200×40px)
+
+### Kbd (1)
+- A/Kbd - Component with 2 elements (40×28px)
+
+### Layout (4)
+- Layout: Divider Horizontal - Component with 1 elements (300×0px)
+- Layout: Divider Vertical - Component with 1 elements (0×300px)
+- Layout: Grid 12-col - Component with 12 elements (940×200px)
+- Layout: Scroll Area - Component with 2 elements (300×400px)
+
+### Menubar (1)
+- B/Menubar - Component with 5 elements (600×40px)
+
+### Module (7)
+- Module: Avatar Group - Component with 4 elements (90×40px)
+- Module: Menu Item - Component with 3 elements (200×40px)
+- Module: Card (Simple) - Container card component (410×180px)
+- Module: Accordion - Component with 6 elements (496×77px)
+- Module: Tabs - Component with 4 elements (320×40px)
+- Module: Breadcrumb - Component with 5 elements (256×27px)
+- Module: Pagination - Component with 6 elements (199×32px)
+
+### Nav (4)
+- Nav: Sidebar (Collapsed) - Component with 6 elements (60×500px)
+- B/Nav/Tabs/Line - Component with 6 elements (351×27px)
+- B/Nav/Menu/Vertical - Component with 6 elements (200×160px)
+- B/Nav/WizardSteps - Component with 11 elements (420×32px)
+
+### NavigationMenu (1)
+- B/NavigationMenu - Component with 5 elements (500×40px)
+
+### Overlay (5)
+- Overlay: Modal (Confirm) - Component with 7 elements (400×200px)
+- Overlay: Drawer (Right) - Component with 7 elements (300×800px)
+- B/Overlay/Toast - Component with 3 elements (300×60px)
+- B/Overlay/ToastStack - Component with 4 elements (320×130px)
+- B/Overlay/Modal/Complex - Component with 16 elements (600×400px)
+
+### Page (2)
+- D/Page/Dashboard - Dashboard layout (1440×900px)
+- D/Page/Chat/AppShell - Component with 6 elements (1100×900px)
+
+### Popover (1)
+- B/Popover - Component with 7 elements (250×120px)
+
+### Progress (1)
+- A/Progress/Bar - Component with 2 elements (200×8px)
+
+### Resizable (1)
+- B/Resizable/Panels - Component with 5 elements (600×300px)
+
+### SaaS (10)
+- SaaS: Sidebar - Component with 13 elements (240×500px)
+- SaaS: Navbar - Component with 7 elements (800×60px)
+- SaaS: Page Header - Component with 4 elements (740×67px)
+- SaaS: Metric Card - Container card component (240×120px)
+- SaaS: Chart (Bar) - Chart visualization (400×200px)
+- SaaS: Data Table - Data table component (600×200px)
+- SaaS: Login Form - Login form component (360×340px)
+- SaaS: CRUD Table (+Filters) - Data table component (800×400px)
+- SaaS: Metrics Grid - Component with 12 elements (760×120px)
+- SaaS: Faceted Search - Component with 12 elements (820×600px)
+
+### ScrollArea (1)
+- B/ScrollArea - Component with 8 elements (300×200px)
+
+### Separator (2)
+- A/Separator/Horizontal - Component with 1 elements (200×0px)
+- A/Separator/Vertical - Component with 1 elements (0×200px)
+
+### Sheet (1)
+- B/Sheet - Component with 7 elements (400×600px)
+
+### Shell (5)
+- C/Shell/App/3Pane - Component with 6 elements (1200×800px)
+- C/Shell/BrowserWindow - Component with 7 elements (1024×768px)
+- C/Shell/SplitView - Component with 4 elements (1200×800px)
+- C/Shell/RightInspector - Component with 4 elements (1200×800px)
+- C/Shell/Mobile/BottomNav - Component with 5 elements (392×60px)
+
+### Skeleton (1)
+- A/Skeleton/Line - Component with 1 elements (200×20px)
+
+### Spinner (1)
+- A/Spinner - Component with 2 elements (24×24px)
+
+### Stepper (1)
+- A/Stepper - Component with 8 elements (153×26px)
+
+### Text (2)
+- A/Text/Link - Component with 1 elements (101×27px)
+- A/Text/CodeInline - Component with 1 elements (132×27px)
+
+### Toggle (2)
+- A/Toggle - Component with 2 elements (40×40px)
+- A/Toggle/Active - Component with 2 elements (40×40px)
+
+### Tooltip (1)
+- B/Tooltip - Component with 3 elements (120×35px)
+
+### Type (5)
+- Type: H1 - Component with 1 elements (218×51px)
+- Type: H2 - Component with 1 elements (183×44px)
+- Type: H3 - Component with 1 elements (148×36px)
+- Type: Body - Component with 1 elements (580×32px)
+- Type: Small - Component with 1 elements (236×27px)
+
+## Theme: DEFAULT (154 components)
+
+### AI (10)
+- AI: User Bubble - Component with 2 elements (300×50px)
+- AI: Response Bubble - Component with 3 elements (360×80px)
+- AI: Prompt Input - Text input field (600×60px)
+- AI: Code Artifact - Component with 3 elements (400×120px)
+- AI: Thinking - Component with 3 elements (38×8px)
+- AI: Chat Thread - Component with 6 elements (400×500px)
+- AI: Tool Call (Card) - Container card component (300×50px)
+- AI: Citations (Inline) - Component with 4 elements (451×27px)
+- AI: Streaming Cursor - Component with 2 elements (164×27px)
+- AI: Message Meta - Component with 4 elements (201×22px)
+
+### Accordion (2)
+- B/Accordion/Item - Component with 3 elements (400×50px)
+- B/Accordion/Item/Expanded - Component with 5 elements (455×140px)
+
+### Alert (1)
+- A/Alert/Info - Component with 2 elements (400×50px)
+
+### Avatar (1)
+- A/Avatar/Circle - Component with 2 elements (40×40px)
+
+### Badge (1)
+- A/Badge/Status - Component with 2 elements (60×22px)
+
+### Block (17)
+- C/Block/Mobile/DrawerNav - Component with 6 elements (300×844px)
+- C/Block/Marketing/Hero - Component with 5 elements (1200×400px)
+- C/Block/Marketing/FeatureGrid - Component with 12 elements (1012×200px)
+- C/Block/CRUD/List+Table - Data table component (800×380px)
+- C/Block/CRUD/SettingsNav - Component with 7 elements (240×400px)
+- C/Block/Dashboard/KPIGrid - Dashboard layout (760×120px)
+- C/Block/SearchResults/List - Component with 6 elements (736×179px)
+- C/Block/AlertDialog - Component with 7 elements (1039×250px)
+- C/Block/AspectRatio - Component with 3 elements (400×225px)
+- C/Block/Skeleton/Complex - Component with 5 elements (400×120px)
+  ... and 7 more
+
+### Button (7)
+- A/Button/Loading - Interactive button component (120×40px)
+- Button: Primary - Interactive button component (120×40px)
+- Button: Secondary - Interactive button component (120×40px)
+- Button: Outline - Interactive button component (120×40px)
+- Button: Ghost - Interactive button component (120×40px)
+- Button: Destructive - Interactive button component (120×40px)
+- Button: Link - Interactive button component (112×27px)
+
+### Calendar (1)
+- B/Calendar - Component with 15 elements (283×280px)
+
+### Card (3)
+- B/Card/Metric/Trend - Container card component (240×120px)
+- B/Card/ListItem - Container card component (400×80px)
+- B/Card/Pricing - Container card component (280×400px)
+
+### Carousel (1)
+- B/Carousel - Component with 9 elements (400×250px)
+
+### Chart (3)
+- B/Chart/Placeholder/Line - Chart visualization (300×230px)
+- B/Chart/Placeholder/Bar - Chart visualization (300×150px)
+- B/Chart/Placeholder/Pie - Chart visualization (200×200px)
+
+### Collapsible (1)
+- B/Collapsible - Component with 3 elements (319×50px)
+
+### Command (1)
+- B/Command/Palette - Component with 10 elements (500×350px)
+
+### ContextMenu (1)
+- B/ContextMenu - Component with 11 elements (180×200px)
+
+### Control (6)
+- Control: Checkbox - Component with 2 elements (152×27px)
+- Control: Checkbox (Active) - Component with 2 elements (20×20px)
+- Control: Radio - Component with 2 elements (100×27px)
+- Control: Radio (Active) - Component with 2 elements (20×20px)
+- Control: Switch - Component with 2 elements (44×24px)
+- Control: Slider - Component with 3 elements (200×20px)
+
+### Data (4)
+- Data: KPI Row - Component with 12 elements (580×100px)
+- Data: Chart (Pie) - Chart visualization (269×150px)
+- B/Data/Timeline - Component with 7 elements (228×205px)
+- B/Data/KanbanColumn - Component with 8 elements (260×600px)
+
+### EmptyState (1)
+- A/EmptyState - Component with 5 elements (160×200px)
+
+### Form (12)
+- Form: Field (Label+Input) - Text input field (250×65px)
+- Form: Field (Error) - Component with 3 elements (250×92px)
+- Form: OTP Input - Text input field (190×50px)
+- B/Form/Input/Number - Text input field (280×65px)
+- B/Form/Input/Slider - Text input field (255×44px)
+- B/Form/Input/ColorPicker - Text input field (117×65px)
+- B/Form/Input/Tags - Text input field (400×65px)
+- B/Form/InputGroup/WithButton - Interactive button component (280×40px)
+- B/Form/InputGroup/WithIcon - Text input field (250×40px)
+- B/Form/InputGroup/WithAddon - Text input field (250×40px)
+  ... and 2 more
+
+### Frame (3)
+- Frame: Desktop (1440x900) - Device frame container (1440×925px)
+- Frame: Tablet (768x1024) - Data table component (768×1049px)
+- Frame: Mobile (375x812) - Device frame container (375×837px)
+
+### Header (2)
+- C/Header/PageTitle+Actions - Component with 7 elements (800×80px)
+- C/Header/FilterBar - Component with 9 elements (800×60px)
+
+### HoverCard (1)
+- B/HoverCard - Container card component (280×140px)
+
+### Icon (6)
+- Icon: Search - Component with 2 elements (20×20px)
+- Icon: User - Component with 2 elements (24×14px)
+- Icon: Settings - Component with 2 elements (24×24px)
+- Icon: Close - Component with 2 elements (16×16px)
+- Icon: Menu - Component with 3 elements (24×16px)
+- A/Icon/Placeholder - Component with 3 elements (24×24px)
+
+### Input (9)
+- Input: Text - Text input field (250×40px)
+- Input: Search - Text input field (250×40px)
+- Input: Select - Text input field (200×40px)
+- Input: Textarea - Text input field (250×100px)
+- Input: Date Picker - Text input field (200×40px)
+- Input: Search Bar - Text input field (300×40px)
+- Input: Button Group - Interactive button component (240×40px)
+- Input: Upload Dropzone - Text input field (400×150px)
+- Input: Amount - Text input field (200×40px)
+
+### Kbd (1)
+- A/Kbd - Component with 2 elements (40×28px)
+
+### Layout (4)
+- Layout: Divider Horizontal - Component with 1 elements (300×0px)
+- Layout: Divider Vertical - Component with 1 elements (0×300px)
+- Layout: Grid 12-col - Component with 12 elements (940×200px)
+- Layout: Scroll Area - Component with 2 elements (300×400px)
+
+### Menubar (1)
+- B/Menubar - Component with 5 elements (600×40px)
+
+### Module (7)
+- Module: Avatar Group - Component with 4 elements (90×40px)
+- Module: Menu Item - Component with 3 elements (200×40px)
+- Module: Card (Simple) - Container card component (410×180px)
+- Module: Accordion - Component with 6 elements (496×77px)
+- Module: Tabs - Component with 4 elements (320×40px)
+- Module: Breadcrumb - Component with 5 elements (256×27px)
+- Module: Pagination - Component with 6 elements (199×32px)
+
+### Nav (4)
+- Nav: Sidebar (Collapsed) - Component with 6 elements (60×500px)
+- B/Nav/Tabs/Line - Component with 6 elements (351×27px)
+- B/Nav/Menu/Vertical - Component with 6 elements (200×160px)
+- B/Nav/WizardSteps - Component with 11 elements (420×32px)
+
+### NavigationMenu (1)
+- B/NavigationMenu - Component with 5 elements (500×40px)
+
+### Overlay (5)
+- Overlay: Modal (Confirm) - Component with 7 elements (400×200px)
+- Overlay: Drawer (Right) - Component with 7 elements (300×800px)
+- B/Overlay/Toast - Component with 3 elements (300×60px)
+- B/Overlay/ToastStack - Component with 4 elements (320×130px)
+- B/Overlay/Modal/Complex - Component with 16 elements (600×400px)
+
+### Page (2)
+- D/Page/Dashboard - Dashboard layout (1440×900px)
+- D/Page/Chat/AppShell - Component with 6 elements (1100×900px)
+
+### Popover (1)
+- B/Popover - Component with 7 elements (250×120px)
+
+### Progress (1)
+- A/Progress/Bar - Component with 2 elements (200×8px)
+
+### Resizable (1)
+- B/Resizable/Panels - Component with 5 elements (600×300px)
+
+### SaaS (10)
+- SaaS: Sidebar - Component with 13 elements (240×500px)
+- SaaS: Navbar - Component with 7 elements (800×60px)
+- SaaS: Page Header - Component with 4 elements (740×67px)
+- SaaS: Metric Card - Container card component (240×120px)
+- SaaS: Chart (Bar) - Chart visualization (400×200px)
+- SaaS: Data Table - Data table component (600×200px)
+- SaaS: Login Form - Login form component (360×340px)
+- SaaS: CRUD Table (+Filters) - Data table component (800×400px)
+- SaaS: Metrics Grid - Component with 12 elements (760×120px)
+- SaaS: Faceted Search - Component with 12 elements (820×600px)
+
+### ScrollArea (1)
+- B/ScrollArea - Component with 8 elements (300×200px)
+
+### Separator (2)
+- A/Separator/Horizontal - Component with 1 elements (200×0px)
+- A/Separator/Vertical - Component with 1 elements (0×200px)
+
+### Sheet (1)
+- B/Sheet - Component with 7 elements (400×600px)
+
+### Shell (5)
+- C/Shell/App/3Pane - Component with 6 elements (1200×800px)
+- C/Shell/BrowserWindow - Component with 7 elements (1024×768px)
+- C/Shell/SplitView - Component with 4 elements (1200×800px)
+- C/Shell/RightInspector - Component with 4 elements (1200×800px)
+- C/Shell/Mobile/BottomNav - Component with 5 elements (392×60px)
+
+### Skeleton (1)
+- A/Skeleton/Line - Component with 1 elements (200×20px)
+
+### Spinner (1)
+- A/Spinner - Component with 2 elements (24×24px)
+
+### Stepper (1)
+- A/Stepper - Component with 8 elements (153×26px)
+
+### Text (2)
+- A/Text/Link - Component with 1 elements (101×27px)
+- A/Text/CodeInline - Component with 1 elements (132×27px)
+
+### Toggle (2)
+- A/Toggle - Component with 2 elements (40×40px)
+- A/Toggle/Active - Component with 2 elements (40×40px)
+
+### Tooltip (1)
+- B/Tooltip - Component with 3 elements (120×35px)
+
+### Type (5)
+- Type: H1 - Component with 1 elements (218×51px)
+- Type: H2 - Component with 1 elements (183×44px)
+- Type: H3 - Component with 1 elements (148×36px)
+- Type: Body - Component with 1 elements (580×32px)
+- Type: Small - Component with 1 elements (236×27px)
+
+## Theme: BRONZER (154 components)
+
+### AI (10)
+- AI: User Bubble - Component with 2 elements (300×50px)
+- AI: Response Bubble - Component with 3 elements (360×80px)
+- AI: Prompt Input - Text input field (600×60px)
+- AI: Code Artifact - Component with 3 elements (400×120px)
+- AI: Thinking - Component with 3 elements (38×8px)
+- AI: Chat Thread - Component with 6 elements (400×500px)
+- AI: Tool Call (Card) - Container card component (300×50px)
+- AI: Citations (Inline) - Component with 4 elements (451×27px)
+- AI: Streaming Cursor - Component with 2 elements (164×27px)
+- AI: Message Meta - Component with 4 elements (201×22px)
+
+### Accordion (2)
+- B/Accordion/Item - Component with 3 elements (400×50px)
+- B/Accordion/Item/Expanded - Component with 5 elements (455×140px)
+
+### Alert (1)
+- A/Alert/Info - Component with 2 elements (400×50px)
+
+### Avatar (1)
+- A/Avatar/Circle - Component with 2 elements (40×40px)
+
+### Badge (1)
+- A/Badge/Status - Component with 2 elements (60×22px)
+
+### Block (17)
+- C/Block/Mobile/DrawerNav - Component with 6 elements (300×844px)
+- C/Block/Marketing/Hero - Component with 5 elements (1200×400px)
+- C/Block/Marketing/FeatureGrid - Component with 12 elements (1012×200px)
+- C/Block/CRUD/List+Table - Data table component (800×380px)
+- C/Block/CRUD/SettingsNav - Component with 7 elements (240×400px)
+- C/Block/Dashboard/KPIGrid - Dashboard layout (760×120px)
+- C/Block/SearchResults/List - Component with 6 elements (736×179px)
+- C/Block/AlertDialog - Component with 7 elements (1039×250px)
+- C/Block/AspectRatio - Component with 3 elements (400×225px)
+- C/Block/Skeleton/Complex - Component with 5 elements (400×120px)
+  ... and 7 more
+
+### Button (7)
+- A/Button/Loading - Interactive button component (120×40px)
+- Button: Primary - Interactive button component (120×40px)
+- Button: Secondary - Interactive button component (120×40px)
+- Button: Outline - Interactive button component (120×40px)
+- Button: Ghost - Interactive button component (120×40px)
+- Button: Destructive - Interactive button component (120×40px)
+- Button: Link - Interactive button component (112×27px)
+
+### Calendar (1)
+- B/Calendar - Component with 15 elements (283×280px)
+
+### Card (3)
+- B/Card/Metric/Trend - Container card component (240×120px)
+- B/Card/ListItem - Container card component (400×80px)
+- B/Card/Pricing - Container card component (280×400px)
+
+### Carousel (1)
+- B/Carousel - Component with 9 elements (400×250px)
+
+### Chart (3)
+- B/Chart/Placeholder/Line - Chart visualization (300×230px)
+- B/Chart/Placeholder/Bar - Chart visualization (300×150px)
+- B/Chart/Placeholder/Pie - Chart visualization (200×200px)
+
+### Collapsible (1)
+- B/Collapsible - Component with 3 elements (319×50px)
+
+### Command (1)
+- B/Command/Palette - Component with 10 elements (500×350px)
+
+### ContextMenu (1)
+- B/ContextMenu - Component with 11 elements (180×200px)
+
+### Control (6)
+- Control: Checkbox - Component with 2 elements (152×27px)
+- Control: Checkbox (Active) - Component with 2 elements (20×20px)
+- Control: Radio - Component with 2 elements (100×27px)
+- Control: Radio (Active) - Component with 2 elements (20×20px)
+- Control: Switch - Component with 2 elements (44×24px)
+- Control: Slider - Component with 3 elements (200×20px)
+
+### Data (4)
+- Data: KPI Row - Component with 12 elements (580×100px)
+- Data: Chart (Pie) - Chart visualization (269×150px)
+- B/Data/Timeline - Component with 7 elements (228×205px)
+- B/Data/KanbanColumn - Component with 8 elements (260×600px)
+
+### EmptyState (1)
+- A/EmptyState - Component with 5 elements (160×200px)
+
+### Form (12)
+- Form: Field (Label+Input) - Text input field (250×65px)
+- Form: Field (Error) - Component with 3 elements (250×92px)
+- Form: OTP Input - Text input field (190×50px)
+- B/Form/Input/Number - Text input field (280×65px)
+- B/Form/Input/Slider - Text input field (255×44px)
+- B/Form/Input/ColorPicker - Text input field (117×65px)
+- B/Form/Input/Tags - Text input field (400×65px)
+- B/Form/InputGroup/WithButton - Interactive button component (280×40px)
+- B/Form/InputGroup/WithIcon - Text input field (250×40px)
+- B/Form/InputGroup/WithAddon - Text input field (250×40px)
+  ... and 2 more
+
+### Frame (3)
+- Frame: Desktop (1440x900) - Device frame container (288×205px)
+- Frame: Tablet (768x1024) - Data table component (154×230px)
+- Frame: Mobile (375x812) - Device frame container (111×187px)
+
+### Header (2)
+- C/Header/PageTitle+Actions - Component with 7 elements (800×80px)
+- C/Header/FilterBar - Component with 9 elements (800×60px)
+
+### HoverCard (1)
+- B/HoverCard - Container card component (280×140px)
+
+### Icon (6)
+- Icon: Search - Component with 2 elements (20×20px)
+- Icon: User - Component with 2 elements (24×14px)
+- Icon: Settings - Component with 2 elements (24×24px)
+- Icon: Close - Component with 2 elements (16×16px)
+- Icon: Menu - Component with 3 elements (24×16px)
+- A/Icon/Placeholder - Component with 3 elements (24×24px)
+
+### Input (9)
+- Input: Text - Text input field (250×40px)
+- Input: Search - Text input field (250×40px)
+- Input: Select - Text input field (200×40px)
+- Input: Textarea - Text input field (250×100px)
+- Input: Date Picker - Text input field (200×40px)
+- Input: Search Bar - Text input field (300×40px)
+- Input: Button Group - Interactive button component (240×40px)
+- Input: Upload Dropzone - Text input field (400×150px)
+- Input: Amount - Text input field (200×40px)
+
+### Kbd (1)
+- A/Kbd - Component with 2 elements (40×28px)
+
+### Layout (4)
+- Layout: Divider Horizontal - Component with 1 elements (300×0px)
+- Layout: Divider Vertical - Component with 1 elements (0×300px)
+- Layout: Grid 12-col - Component with 12 elements (940×200px)
+- Layout: Scroll Area - Component with 2 elements (300×400px)
+
+### Menubar (1)
+- B/Menubar - Component with 5 elements (600×40px)
+
+### Module (7)
+- Module: Avatar Group - Component with 4 elements (90×40px)
+- Module: Menu Item - Component with 3 elements (200×40px)
+- Module: Card (Simple) - Container card component (410×180px)
+- Module: Accordion - Component with 6 elements (496×77px)
+- Module: Tabs - Component with 4 elements (320×40px)
+- Module: Breadcrumb - Component with 5 elements (256×27px)
+- Module: Pagination - Component with 6 elements (199×32px)
+
+### Nav (4)
+- Nav: Sidebar (Collapsed) - Component with 6 elements (60×500px)
+- B/Nav/Tabs/Line - Component with 6 elements (351×27px)
+- B/Nav/Menu/Vertical - Component with 6 elements (200×160px)
+- B/Nav/WizardSteps - Component with 11 elements (420×32px)
+
+### NavigationMenu (1)
+- B/NavigationMenu - Component with 5 elements (500×40px)
+
+### Overlay (5)
+- Overlay: Modal (Confirm) - Component with 7 elements (400×200px)
+- Overlay: Drawer (Right) - Component with 7 elements (300×800px)
+- B/Overlay/Toast - Component with 3 elements (300×60px)
+- B/Overlay/ToastStack - Component with 4 elements (320×130px)
+- B/Overlay/Modal/Complex - Component with 16 elements (600×400px)
+
+### Page (2)
+- D/Page/Dashboard - Dashboard layout (1440×900px)
+- D/Page/Chat/AppShell - Component with 6 elements (1100×900px)
+
+### Popover (1)
+- B/Popover - Component with 7 elements (250×120px)
+
+### Progress (1)
+- A/Progress/Bar - Component with 2 elements (200×8px)
+
+### Resizable (1)
+- B/Resizable/Panels - Component with 5 elements (600×300px)
+
+### SaaS (10)
+- SaaS: Sidebar - Component with 13 elements (240×500px)
+- SaaS: Navbar - Component with 7 elements (800×60px)
+- SaaS: Page Header - Component with 4 elements (740×67px)
+- SaaS: Metric Card - Container card component (240×120px)
+- SaaS: Chart (Bar) - Chart visualization (400×200px)
+- SaaS: Data Table - Data table component (600×200px)
+- SaaS: Login Form - Login form component (360×340px)
+- SaaS: CRUD Table (+Filters) - Data table component (800×400px)
+- SaaS: Metrics Grid - Component with 12 elements (760×120px)
+- SaaS: Faceted Search - Component with 12 elements (820×600px)
+
+### ScrollArea (1)
+- B/ScrollArea - Component with 8 elements (300×200px)
+
+### Separator (2)
+- A/Separator/Horizontal - Component with 1 elements (200×0px)
+- A/Separator/Vertical - Component with 1 elements (0×200px)
+
+### Sheet (1)
+- B/Sheet - Component with 7 elements (400×600px)
+
+### Shell (5)
+- C/Shell/App/3Pane - Component with 6 elements (1200×800px)
+- C/Shell/BrowserWindow - Component with 7 elements (1024×768px)
+- C/Shell/SplitView - Component with 4 elements (1200×800px)
+- C/Shell/RightInspector - Component with 4 elements (1200×800px)
+- C/Shell/Mobile/BottomNav - Component with 5 elements (392×60px)
+
+### Skeleton (1)
+- A/Skeleton/Line - Component with 1 elements (200×20px)
+
+### Spinner (1)
+- A/Spinner - Component with 2 elements (24×24px)
+
+### Stepper (1)
+- A/Stepper - Component with 8 elements (153×26px)
+
+### Text (2)
+- A/Text/Link - Component with 1 elements (101×27px)
+- A/Text/CodeInline - Component with 1 elements (132×27px)
+
+### Toggle (2)
+- A/Toggle - Component with 2 elements (40×40px)
+- A/Toggle/Active - Component with 2 elements (40×40px)
+
+### Tooltip (1)
+- B/Tooltip - Component with 3 elements (120×35px)
+
+### Type (5)
+- Type: H1 - Component with 1 elements (218×51px)
+- Type: H2 - Component with 1 elements (183×44px)
+- Type: H3 - Component with 1 elements (148×36px)
+- Type: Body - Component with 1 elements (580×32px)
+- Type: Small - Component with 1 elements (236×27px)
+
+## Theme: SHADCN-SAAS-KIT (154 components)
+
+### AI (10)
+- AI: User Bubble - Component with 2 elements (300×50px)
+- AI: Response Bubble - Component with 3 elements (360×80px)
+- AI: Prompt Input - Text input field (600×60px)
+- AI: Code Artifact - Component with 3 elements (400×120px)
+- AI: Thinking - Component with 3 elements (38×8px)
+- AI: Chat Thread - Component with 6 elements (400×500px)
+- AI: Tool Call (Card) - Container card component (300×50px)
+- AI: Citations (Inline) - Component with 4 elements (451×27px)
+- AI: Streaming Cursor - Component with 2 elements (164×27px)
+- AI: Message Meta - Component with 4 elements (201×22px)
+
+### Accordion (2)
+- B/Accordion/Item - Component with 3 elements (400×50px)
+- B/Accordion/Item/Expanded - Component with 5 elements (455×140px)
+
+### Alert (1)
+- A/Alert/Info - Component with 2 elements (400×50px)
+
+### Avatar (1)
+- A/Avatar/Circle - Component with 2 elements (40×40px)
+
+### Badge (1)
+- A/Badge/Status - Component with 2 elements (60×22px)
+
+### Block (17)
+- C/Block/Mobile/DrawerNav - Component with 6 elements (300×844px)
+- C/Block/Marketing/Hero - Component with 5 elements (1200×400px)
+- C/Block/Marketing/FeatureGrid - Component with 12 elements (1012×200px)
+- C/Block/CRUD/List+Table - Data table component (800×380px)
+- C/Block/CRUD/SettingsNav - Component with 7 elements (240×400px)
+- C/Block/Dashboard/KPIGrid - Dashboard layout (760×120px)
+- C/Block/SearchResults/List - Component with 6 elements (736×179px)
+- C/Block/AlertDialog - Component with 7 elements (1039×250px)
+- C/Block/AspectRatio - Component with 3 elements (400×225px)
+- C/Block/Skeleton/Complex - Component with 5 elements (400×120px)
+  ... and 7 more
+
+### Button (7)
+- A/Button/Loading - Interactive button component (120×40px)
+- Button: Primary - Interactive button component (120×40px)
+- Button: Secondary - Interactive button component (120×40px)
+- Button: Outline - Interactive button component (120×40px)
+- Button: Ghost - Interactive button component (120×40px)
+- Button: Destructive - Interactive button component (120×40px)
+- Button: Link - Interactive button component (112×27px)
+
+### Calendar (1)
+- B/Calendar - Component with 15 elements (283×280px)
+
+### Card (3)
+- B/Card/Metric/Trend - Container card component (240×120px)
+- B/Card/ListItem - Container card component (400×80px)
+- B/Card/Pricing - Container card component (280×400px)
+
+### Carousel (1)
+- B/Carousel - Component with 9 elements (400×250px)
+
+### Chart (3)
+- B/Chart/Placeholder/Line - Chart visualization (300×230px)
+- B/Chart/Placeholder/Bar - Chart visualization (300×150px)
+- B/Chart/Placeholder/Pie - Chart visualization (200×200px)
+
+### Collapsible (1)
+- B/Collapsible - Component with 3 elements (319×50px)
+
+### Command (1)
+- B/Command/Palette - Component with 10 elements (500×350px)
+
+### ContextMenu (1)
+- B/ContextMenu - Component with 11 elements (180×200px)
+
+### Control (6)
+- Control: Checkbox - Component with 2 elements (152×27px)
+- Control: Checkbox (Active) - Component with 2 elements (20×20px)
+- Control: Radio - Component with 2 elements (100×27px)
+- Control: Radio (Active) - Component with 2 elements (20×20px)
+- Control: Switch - Component with 2 elements (44×24px)
+- Control: Slider - Component with 3 elements (200×20px)
+
+### Data (4)
+- Data: KPI Row - Component with 12 elements (580×100px)
+- Data: Chart (Pie) - Chart visualization (269×150px)
+- B/Data/Timeline - Component with 7 elements (228×205px)
+- B/Data/KanbanColumn - Component with 8 elements (260×600px)
+
+### EmptyState (1)
+- A/EmptyState - Component with 5 elements (160×200px)
+
+### Form (12)
+- Form: Field (Label+Input) - Text input field (250×65px)
+- Form: Field (Error) - Component with 3 elements (250×92px)
+- Form: OTP Input - Text input field (190×50px)
+- B/Form/Input/Number - Text input field (280×65px)
+- B/Form/Input/Slider - Text input field (255×44px)
+- B/Form/Input/ColorPicker - Text input field (117×65px)
+- B/Form/Input/Tags - Text input field (400×65px)
+- B/Form/InputGroup/WithButton - Interactive button component (280×40px)
+- B/Form/InputGroup/WithIcon - Text input field (250×40px)
+- B/Form/InputGroup/WithAddon - Text input field (250×40px)
+  ... and 2 more
+
+### Frame (3)
+- Frame: Desktop (1440x900) - Device frame container (1440×925px)
+- Frame: Tablet (768x1024) - Data table component (768×1049px)
+- Frame: Mobile (375x812) - Device frame container (375×837px)
+
+### Header (2)
+- C/Header/PageTitle+Actions - Component with 7 elements (800×80px)
+- C/Header/FilterBar - Component with 9 elements (800×60px)
+
+### HoverCard (1)
+- B/HoverCard - Container card component (280×140px)
+
+### Icon (6)
+- Icon: Search - Component with 2 elements (20×20px)
+- Icon: User - Component with 2 elements (24×14px)
+- Icon: Settings - Component with 2 elements (24×24px)
+- Icon: Close - Component with 2 elements (16×16px)
+- Icon: Menu - Component with 3 elements (24×16px)
+- A/Icon/Placeholder - Component with 3 elements (24×24px)
+
+### Input (9)
+- Input: Text - Text input field (250×40px)
+- Input: Search - Text input field (250×40px)
+- Input: Select - Text input field (200×40px)
+- Input: Textarea - Text input field (250×100px)
+- Input: Date Picker - Text input field (200×40px)
+- Input: Search Bar - Text input field (300×40px)
+- Input: Button Group - Interactive button component (240×40px)
+- Input: Upload Dropzone - Text input field (400×150px)
+- Input: Amount - Text input field (200×40px)
+
+### Kbd (1)
+- A/Kbd - Component with 2 elements (40×28px)
+
+### Layout (4)
+- Layout: Divider Horizontal - Component with 1 elements (300×0px)
+- Layout: Divider Vertical - Component with 1 elements (0×300px)
+- Layout: Grid 12-col - Component with 12 elements (940×200px)
+- Layout: Scroll Area - Component with 2 elements (300×400px)
+
+### Menubar (1)
+- B/Menubar - Component with 5 elements (600×40px)
+
+### Module (7)
+- Module: Avatar Group - Component with 4 elements (90×40px)
+- Module: Menu Item - Component with 3 elements (200×40px)
+- Module: Card (Simple) - Container card component (410×180px)
+- Module: Accordion - Component with 6 elements (496×77px)
+- Module: Tabs - Component with 4 elements (320×40px)
+- Module: Breadcrumb - Component with 5 elements (256×27px)
+- Module: Pagination - Component with 6 elements (199×32px)
+
+### Nav (4)
+- Nav: Sidebar (Collapsed) - Component with 6 elements (60×500px)
+- B/Nav/Tabs/Line - Component with 6 elements (351×27px)
+- B/Nav/Menu/Vertical - Component with 6 elements (200×160px)
+- B/Nav/WizardSteps - Component with 11 elements (420×32px)
+
+### NavigationMenu (1)
+- B/NavigationMenu - Component with 5 elements (500×40px)
+
+### Overlay (5)
+- Overlay: Modal (Confirm) - Component with 7 elements (400×200px)
+- Overlay: Drawer (Right) - Component with 7 elements (300×800px)
+- B/Overlay/Toast - Component with 3 elements (300×60px)
+- B/Overlay/ToastStack - Component with 4 elements (320×130px)
+- B/Overlay/Modal/Complex - Component with 16 elements (600×400px)
+
+### Page (2)
+- D/Page/Dashboard - Dashboard layout (1440×900px)
+- D/Page/Chat/AppShell - Component with 6 elements (1100×900px)
+
+### Popover (1)
+- B/Popover - Component with 7 elements (250×120px)
+
+### Progress (1)
+- A/Progress/Bar - Component with 2 elements (200×8px)
+
+### Resizable (1)
+- B/Resizable/Panels - Component with 5 elements (600×300px)
+
+### SaaS (10)
+- SaaS: Sidebar - Component with 13 elements (240×500px)
+- SaaS: Navbar - Component with 7 elements (800×60px)
+- SaaS: Page Header - Component with 4 elements (740×67px)
+- SaaS: Metric Card - Container card component (240×120px)
+- SaaS: Chart (Bar) - Chart visualization (400×200px)
+- SaaS: Data Table - Data table component (600×200px)
+- SaaS: Login Form - Login form component (360×340px)
+- SaaS: CRUD Table (+Filters) - Data table component (800×400px)
+- SaaS: Metrics Grid - Component with 12 elements (760×120px)
+- SaaS: Faceted Search - Component with 12 elements (820×600px)
+
+### ScrollArea (1)
+- B/ScrollArea - Component with 8 elements (300×200px)
+
+### Separator (2)
+- A/Separator/Horizontal - Component with 1 elements (200×0px)
+- A/Separator/Vertical - Component with 1 elements (0×200px)
+
+### Sheet (1)
+- B/Sheet - Component with 7 elements (400×600px)
+
+### Shell (5)
+- C/Shell/App/3Pane - Component with 6 elements (1200×800px)
+- C/Shell/BrowserWindow - Component with 7 elements (1024×768px)
+- C/Shell/SplitView - Component with 4 elements (1200×800px)
+- C/Shell/RightInspector - Component with 4 elements (1200×800px)
+- C/Shell/Mobile/BottomNav - Component with 5 elements (392×60px)
+
+### Skeleton (1)
+- A/Skeleton/Line - Component with 1 elements (200×20px)
+
+### Spinner (1)
+- A/Spinner - Component with 2 elements (24×24px)
+
+### Stepper (1)
+- A/Stepper - Component with 8 elements (153×26px)
+
+### Text (2)
+- A/Text/Link - Component with 1 elements (101×27px)
+- A/Text/CodeInline - Component with 1 elements (132×27px)
+
+### Toggle (2)
+- A/Toggle - Component with 2 elements (40×40px)
+- A/Toggle/Active - Component with 2 elements (40×40px)
+
+### Tooltip (1)
+- B/Tooltip - Component with 3 elements (120×35px)
+
+### Type (5)
+- Type: H1 - Component with 1 elements (218×51px)
+- Type: H2 - Component with 1 elements (183×44px)
+- Type: H3 - Component with 1 elements (148×36px)
+- Type: Body - Component with 1 elements (580×32px)
+- Type: Small - Component with 1 elements (236×27px)
+
+## Theme: CARBON (154 components)
+
+### AI (10)
+- AI: User Bubble - Component with 2 elements (300×50px)
+- AI: Response Bubble - Component with 3 elements (360×80px)
+- AI: Prompt Input - Text input field (600×60px)
+- AI: Code Artifact - Component with 3 elements (400×120px)
+- AI: Thinking - Component with 3 elements (38×8px)
+- AI: Chat Thread - Component with 6 elements (400×500px)
+- AI: Tool Call (Card) - Container card component (300×50px)
+- AI: Citations (Inline) - Component with 4 elements (434×27px)
+- AI: Streaming Cursor - Component with 2 elements (152×27px)
+- AI: Message Meta - Component with 4 elements (201×22px)
+
+### Accordion (2)
+- B/Accordion/Item - Component with 3 elements (400×50px)
+- B/Accordion/Item/Expanded - Component with 5 elements (422×140px)
+
+### Alert (1)
+- A/Alert/Info - Component with 2 elements (400×50px)
+
+### Avatar (1)
+- A/Avatar/Circle - Component with 2 elements (40×40px)
+
+### Badge (1)
+- A/Badge/Status - Component with 2 elements (60×22px)
+
+### Block (17)
+- C/Block/Mobile/DrawerNav - Component with 6 elements (300×844px)
+- C/Block/Marketing/Hero - Component with 5 elements (1200×400px)
+- C/Block/Marketing/FeatureGrid - Component with 12 elements (983×200px)
+- C/Block/CRUD/List+Table - Data table component (800×380px)
+- C/Block/CRUD/SettingsNav - Component with 7 elements (240×400px)
+- C/Block/Dashboard/KPIGrid - Dashboard layout (760×120px)
+- C/Block/SearchResults/List - Component with 6 elements (680×179px)
+- C/Block/AlertDialog - Component with 7 elements (962×250px)
+- C/Block/AspectRatio - Component with 3 elements (400×225px)
+- C/Block/Skeleton/Complex - Component with 5 elements (400×120px)
+  ... and 7 more
+
+### Button (7)
+- A/Button/Loading - Interactive button component (120×40px)
+- Button: Primary - Interactive button component (120×40px)
+- Button: Secondary - Interactive button component (120×40px)
+- Button: Outline - Interactive button component (120×40px)
+- Button: Ghost - Interactive button component (120×40px)
+- Button: Destructive - Interactive button component (120×40px)
+- Button: Link - Interactive button component (104×27px)
+
+### Calendar (1)
+- B/Calendar - Component with 15 elements (282×280px)
+
+### Card (3)
+- B/Card/Metric/Trend - Container card component (240×120px)
+- B/Card/ListItem - Container card component (400×80px)
+- B/Card/Pricing - Container card component (280×400px)
+
+### Carousel (1)
+- B/Carousel - Component with 9 elements (400×250px)
+
+### Chart (3)
+- B/Chart/Placeholder/Line - Chart visualization (300×230px)
+- B/Chart/Placeholder/Bar - Chart visualization (300×150px)
+- B/Chart/Placeholder/Pie - Chart visualization (200×200px)
+
+### Collapsible (1)
+- B/Collapsible - Component with 3 elements (300×50px)
+
+### Command (1)
+- B/Command/Palette - Component with 10 elements (500×350px)
+
+### ContextMenu (1)
+- B/ContextMenu - Component with 11 elements (180×200px)
+
+### Control (6)
+- Control: Checkbox - Component with 2 elements (143×27px)
+- Control: Checkbox (Active) - Component with 2 elements (20×20px)
+- Control: Radio - Component with 2 elements (95×27px)
+- Control: Radio (Active) - Component with 2 elements (20×20px)
+- Control: Switch - Component with 2 elements (44×24px)
+- Control: Slider - Component with 3 elements (200×20px)
+
+### Data (4)
+- Data: KPI Row - Component with 12 elements (580×100px)
+- Data: Chart (Pie) - Chart visualization (262×150px)
+- B/Data/Timeline - Component with 7 elements (213×205px)
+- B/Data/KanbanColumn - Component with 8 elements (260×600px)
+
+### EmptyState (1)
+- A/EmptyState - Component with 5 elements (160×200px)
+
+### Form (12)
+- Form: Field (Label+Input) - Text input field (250×65px)
+- Form: Field (Error) - Component with 3 elements (250×92px)
+- Form: OTP Input - Text input field (190×50px)
+- B/Form/Input/Number - Text input field (280×65px)
+- B/Form/Input/Slider - Text input field (253×44px)
+- B/Form/Input/ColorPicker - Text input field (116×65px)
+- B/Form/Input/Tags - Text input field (400×65px)
+- B/Form/InputGroup/WithButton - Interactive button component (280×40px)
+- B/Form/InputGroup/WithIcon - Text input field (250×40px)
+- B/Form/InputGroup/WithAddon - Text input field (250×40px)
+  ... and 2 more
+
+### Frame (3)
+- Frame: Desktop (1440x900) - Device frame container (1440×925px)
+- Frame: Tablet (768x1024) - Data table component (768×1049px)
+- Frame: Mobile (375x812) - Device frame container (375×837px)
+
+### Header (2)
+- C/Header/PageTitle+Actions - Component with 7 elements (800×80px)
+- C/Header/FilterBar - Component with 9 elements (800×60px)
+
+### HoverCard (1)
+- B/HoverCard - Container card component (280×140px)
+
+### Icon (6)
+- Icon: Search - Component with 2 elements (20×20px)
+- Icon: User - Component with 2 elements (24×14px)
+- Icon: Settings - Component with 2 elements (24×24px)
+- Icon: Close - Component with 2 elements (16×16px)
+- Icon: Menu - Component with 3 elements (24×16px)
+- A/Icon/Placeholder - Component with 3 elements (24×24px)
+
+### Input (9)
+- Input: Text - Text input field (250×40px)
+- Input: Search - Text input field (250×40px)
+- Input: Select - Text input field (200×40px)
+- Input: Textarea - Text input field (250×100px)
+- Input: Date Picker - Text input field (200×40px)
+- Input: Search Bar - Text input field (300×40px)
+- Input: Button Group - Interactive button component (240×40px)
+- Input: Upload Dropzone - Text input field (400×150px)
+- Input: Amount - Text input field (200×40px)
+
+### Kbd (1)
+- A/Kbd - Component with 2 elements (40×28px)
+
+### Layout (4)
+- Layout: Divider Horizontal - Component with 1 elements (300×0px)
+- Layout: Divider Vertical - Component with 1 elements (0×300px)
+- Layout: Grid 12-col - Component with 12 elements (940×200px)
+- Layout: Scroll Area - Component with 2 elements (300×400px)
+
+### Menubar (1)
+- B/Menubar - Component with 5 elements (600×40px)
+
+### Module (7)
+- Module: Avatar Group - Component with 4 elements (90×40px)
+- Module: Menu Item - Component with 3 elements (200×40px)
+- Module: Card (Simple) - Container card component (380×180px)
+- Module: Accordion - Component with 6 elements (459×77px)
+- Module: Tabs - Component with 4 elements (320×40px)
+- Module: Breadcrumb - Component with 5 elements (249×27px)
+- Module: Pagination - Component with 6 elements (196×32px)
+
+### Nav (4)
+- Nav: Sidebar (Collapsed) - Component with 6 elements (60×500px)
+- B/Nav/Tabs/Line - Component with 6 elements (350×27px)
+- B/Nav/Menu/Vertical - Component with 6 elements (200×160px)
+- B/Nav/WizardSteps - Component with 11 elements (415×32px)
+
+### NavigationMenu (1)
+- B/NavigationMenu - Component with 5 elements (500×40px)
+
+### Overlay (5)
+- Overlay: Modal (Confirm) - Component with 7 elements (400×200px)
+- Overlay: Drawer (Right) - Component with 7 elements (300×800px)
+- B/Overlay/Toast - Component with 3 elements (300×60px)
+- B/Overlay/ToastStack - Component with 4 elements (320×130px)
+- B/Overlay/Modal/Complex - Component with 16 elements (600×400px)
+
+### Page (2)
+- D/Page/Dashboard - Dashboard layout (1440×900px)
+- D/Page/Chat/AppShell - Component with 6 elements (1100×900px)
+
+### Popover (1)
+- B/Popover - Component with 7 elements (250×120px)
+
+### Progress (1)
+- A/Progress/Bar - Component with 2 elements (200×8px)
+
+### Resizable (1)
+- B/Resizable/Panels - Component with 5 elements (600×300px)
+
+### SaaS (10)
+- SaaS: Sidebar - Component with 13 elements (240×500px)
+- SaaS: Navbar - Component with 7 elements (800×60px)
+- SaaS: Page Header - Component with 4 elements (740×67px)
+- SaaS: Metric Card - Container card component (240×120px)
+- SaaS: Chart (Bar) - Chart visualization (400×200px)
+- SaaS: Data Table - Data table component (600×200px)
+- SaaS: Login Form - Login form component (360×340px)
+- SaaS: CRUD Table (+Filters) - Data table component (800×400px)
+- SaaS: Metrics Grid - Component with 12 elements (760×120px)
+- SaaS: Faceted Search - Component with 12 elements (820×600px)
+
+### ScrollArea (1)
+- B/ScrollArea - Component with 8 elements (300×200px)
+
+### Separator (2)
+- A/Separator/Horizontal - Component with 1 elements (200×0px)
+- A/Separator/Vertical - Component with 1 elements (0×200px)
+
+### Sheet (1)
+- B/Sheet - Component with 7 elements (400×600px)
+
+### Shell (5)
+- C/Shell/App/3Pane - Component with 6 elements (1200×800px)
+- C/Shell/BrowserWindow - Component with 7 elements (1024×768px)
+- C/Shell/SplitView - Component with 4 elements (1200×800px)
+- C/Shell/RightInspector - Component with 4 elements (1200×800px)
+- C/Shell/Mobile/BottomNav - Component with 5 elements (390×60px)
+
+### Skeleton (1)
+- A/Skeleton/Line - Component with 1 elements (200×20px)
+
+### Spinner (1)
+- A/Spinner - Component with 2 elements (24×24px)
+
+### Stepper (1)
+- A/Stepper - Component with 8 elements (152×26px)
+
+### Text (2)
+- A/Text/Link - Component with 1 elements (94×27px)
+- A/Text/CodeInline - Component with 1 elements (132×27px)
+
+### Toggle (2)
+- A/Toggle - Component with 2 elements (40×40px)
+- A/Toggle/Active - Component with 2 elements (40×40px)
+
+### Tooltip (1)
+- B/Tooltip - Component with 3 elements (120×35px)
+
+### Type (5)
+- Type: H1 - Component with 1 elements (202×51px)
+- Type: H2 - Component with 1 elements (170×44px)
+- Type: H3 - Component with 1 elements (137×36px)
+- Type: Body - Component with 1 elements (536×32px)
+- Type: Small - Component with 1 elements (219×27px)
+
+## Theme: WARM (154 components)
+
+### AI (10)
+- AI: User Bubble - Component with 2 elements (300×50px)
+- AI: Response Bubble - Component with 3 elements (360×80px)
+- AI: Prompt Input - Text input field (600×60px)
+- AI: Code Artifact - Component with 3 elements (400×120px)
+- AI: Thinking - Component with 3 elements (38×8px)
+- AI: Chat Thread - Component with 6 elements (400×500px)
+- AI: Tool Call (Card) - Container card component (300×50px)
+- AI: Citations (Inline) - Component with 4 elements (451×27px)
+- AI: Streaming Cursor - Component with 2 elements (164×27px)
+- AI: Message Meta - Component with 4 elements (201×22px)
+
+### Accordion (2)
+- B/Accordion/Item - Component with 3 elements (400×50px)
+- B/Accordion/Item/Expanded - Component with 5 elements (455×140px)
+
+### Alert (1)
+- A/Alert/Info - Component with 2 elements (400×50px)
+
+### Avatar (1)
+- A/Avatar/Circle - Component with 2 elements (40×40px)
+
+### Badge (1)
+- A/Badge/Status - Component with 2 elements (60×22px)
+
+### Block (17)
+- C/Block/Mobile/DrawerNav - Component with 6 elements (300×844px)
+- C/Block/Marketing/Hero - Component with 5 elements (1200×400px)
+- C/Block/Marketing/FeatureGrid - Component with 12 elements (1012×200px)
+- C/Block/CRUD/List+Table - Data table component (800×380px)
+- C/Block/CRUD/SettingsNav - Component with 7 elements (240×400px)
+- C/Block/Dashboard/KPIGrid - Dashboard layout (760×120px)
+- C/Block/SearchResults/List - Component with 6 elements (736×179px)
+- C/Block/AlertDialog - Component with 7 elements (1039×250px)
+- C/Block/AspectRatio - Component with 3 elements (400×225px)
+- C/Block/Skeleton/Complex - Component with 5 elements (400×120px)
+  ... and 7 more
+
+### Button (7)
+- A/Button/Loading - Interactive button component (120×40px)
+- Button: Primary - Interactive button component (120×40px)
+- Button: Secondary - Interactive button component (120×40px)
+- Button: Outline - Interactive button component (120×40px)
+- Button: Ghost - Interactive button component (120×40px)
+- Button: Destructive - Interactive button component (120×40px)
+- Button: Link - Interactive button component (112×27px)
+
+### Calendar (1)
+- B/Calendar - Component with 15 elements (283×280px)
+
+### Card (3)
+- B/Card/Metric/Trend - Container card component (240×120px)
+- B/Card/ListItem - Container card component (400×80px)
+- B/Card/Pricing - Container card component (280×400px)
+
+### Carousel (1)
+- B/Carousel - Component with 9 elements (400×250px)
+
+### Chart (3)
+- B/Chart/Placeholder/Line - Chart visualization (300×230px)
+- B/Chart/Placeholder/Bar - Chart visualization (300×150px)
+- B/Chart/Placeholder/Pie - Chart visualization (200×200px)
+
+### Collapsible (1)
+- B/Collapsible - Component with 3 elements (319×50px)
+
+### Command (1)
+- B/Command/Palette - Component with 10 elements (500×350px)
+
+### ContextMenu (1)
+- B/ContextMenu - Component with 11 elements (180×200px)
+
+### Control (6)
+- Control: Checkbox - Component with 2 elements (152×27px)
+- Control: Checkbox (Active) - Component with 2 elements (20×20px)
+- Control: Radio - Component with 2 elements (100×27px)
+- Control: Radio (Active) - Component with 2 elements (20×20px)
+- Control: Switch - Component with 2 elements (44×24px)
+- Control: Slider - Component with 3 elements (200×20px)
+
+### Data (4)
+- Data: KPI Row - Component with 12 elements (580×100px)
+- Data: Chart (Pie) - Chart visualization (269×150px)
+- B/Data/Timeline - Component with 7 elements (228×205px)
+- B/Data/KanbanColumn - Component with 8 elements (260×600px)
+
+### EmptyState (1)
+- A/EmptyState - Component with 5 elements (160×200px)
+
+### Form (12)
+- Form: Field (Label+Input) - Text input field (250×65px)
+- Form: Field (Error) - Component with 3 elements (250×92px)
+- Form: OTP Input - Text input field (190×50px)
+- B/Form/Input/Number - Text input field (280×65px)
+- B/Form/Input/Slider - Text input field (255×44px)
+- B/Form/Input/ColorPicker - Text input field (117×65px)
+- B/Form/Input/Tags - Text input field (400×65px)
+- B/Form/InputGroup/WithButton - Interactive button component (280×40px)
+- B/Form/InputGroup/WithIcon - Text input field (250×40px)
+- B/Form/InputGroup/WithAddon - Text input field (250×40px)
+  ... and 2 more
+
+### Frame (3)
+- Frame: Desktop (1440x900) - Device frame container (1440×925px)
+- Frame: Tablet (768x1024) - Data table component (768×1049px)
+- Frame: Mobile (375x812) - Device frame container (375×837px)
+
+### Header (2)
+- C/Header/PageTitle+Actions - Component with 7 elements (800×80px)
+- C/Header/FilterBar - Component with 9 elements (800×60px)
+
+### HoverCard (1)
+- B/HoverCard - Container card component (280×140px)
+
+### Icon (6)
+- Icon: Search - Component with 2 elements (20×20px)
+- Icon: User - Component with 2 elements (24×14px)
+- Icon: Settings - Component with 2 elements (24×24px)
+- Icon: Close - Component with 2 elements (16×16px)
+- Icon: Menu - Component with 3 elements (24×16px)
+- A/Icon/Placeholder - Component with 3 elements (24×24px)
+
+### Input (9)
+- Input: Text - Text input field (250×40px)
+- Input: Search - Text input field (250×40px)
+- Input: Select - Text input field (200×40px)
+- Input: Textarea - Text input field (250×100px)
+- Input: Date Picker - Text input field (200×40px)
+- Input: Search Bar - Text input field (300×40px)
+- Input: Button Group - Interactive button component (240×40px)
+- Input: Upload Dropzone - Text input field (400×150px)
+- Input: Amount - Text input field (200×40px)
+
+### Kbd (1)
+- A/Kbd - Component with 2 elements (40×28px)
+
+### Layout (4)
+- Layout: Divider Horizontal - Component with 1 elements (300×0px)
+- Layout: Divider Vertical - Component with 1 elements (0×300px)
+- Layout: Grid 12-col - Component with 12 elements (940×200px)
+- Layout: Scroll Area - Component with 2 elements (300×400px)
+
+### Menubar (1)
+- B/Menubar - Component with 5 elements (600×40px)
+
+### Module (7)
+- Module: Avatar Group - Component with 4 elements (90×40px)
+- Module: Menu Item - Component with 3 elements (200×40px)
+- Module: Card (Simple) - Container card component (410×180px)
+- Module: Accordion - Component with 6 elements (496×77px)
+- Module: Tabs - Component with 4 elements (320×40px)
+- Module: Breadcrumb - Component with 5 elements (256×27px)
+- Module: Pagination - Component with 6 elements (199×32px)
+
+### Nav (4)
+- Nav: Sidebar (Collapsed) - Component with 6 elements (60×500px)
+- B/Nav/Tabs/Line - Component with 6 elements (351×27px)
+- B/Nav/Menu/Vertical - Component with 6 elements (200×160px)
+- B/Nav/WizardSteps - Component with 11 elements (420×32px)
+
+### NavigationMenu (1)
+- B/NavigationMenu - Component with 5 elements (500×40px)
+
+### Overlay (5)
+- Overlay: Modal (Confirm) - Component with 7 elements (400×200px)
+- Overlay: Drawer (Right) - Component with 7 elements (300×800px)
+- B/Overlay/Toast - Component with 3 elements (300×60px)
+- B/Overlay/ToastStack - Component with 4 elements (320×130px)
+- B/Overlay/Modal/Complex - Component with 16 elements (600×400px)
+
+### Page (2)
+- D/Page/Dashboard - Dashboard layout (1440×900px)
+- D/Page/Chat/AppShell - Component with 6 elements (1100×900px)
+
+### Popover (1)
+- B/Popover - Component with 7 elements (250×120px)
+
+### Progress (1)
+- A/Progress/Bar - Component with 2 elements (200×8px)
+
+### Resizable (1)
+- B/Resizable/Panels - Component with 5 elements (600×300px)
+
+### SaaS (10)
+- SaaS: Sidebar - Component with 13 elements (240×500px)
+- SaaS: Navbar - Component with 7 elements (800×60px)
+- SaaS: Page Header - Component with 4 elements (740×67px)
+- SaaS: Metric Card - Container card component (240×120px)
+- SaaS: Chart (Bar) - Chart visualization (400×200px)
+- SaaS: Data Table - Data table component (600×200px)
+- SaaS: Login Form - Login form component (360×340px)
+- SaaS: CRUD Table (+Filters) - Data table component (800×400px)
+- SaaS: Metrics Grid - Component with 12 elements (760×120px)
+- SaaS: Faceted Search - Component with 12 elements (820×600px)
+
+### ScrollArea (1)
+- B/ScrollArea - Component with 8 elements (300×200px)
+
+### Separator (2)
+- A/Separator/Horizontal - Component with 1 elements (200×0px)
+- A/Separator/Vertical - Component with 1 elements (0×200px)
+
+### Sheet (1)
+- B/Sheet - Component with 7 elements (400×600px)
+
+### Shell (5)
+- C/Shell/App/3Pane - Component with 6 elements (1200×800px)
+- C/Shell/BrowserWindow - Component with 7 elements (1024×768px)
+- C/Shell/SplitView - Component with 4 elements (1200×800px)
+- C/Shell/RightInspector - Component with 4 elements (1200×800px)
+- C/Shell/Mobile/BottomNav - Component with 5 elements (392×60px)
+
+### Skeleton (1)
+- A/Skeleton/Line - Component with 1 elements (200×20px)
+
+### Spinner (1)
+- A/Spinner - Component with 2 elements (24×24px)
+
+### Stepper (1)
+- A/Stepper - Component with 8 elements (153×26px)
+
+### Text (2)
+- A/Text/Link - Component with 1 elements (101×27px)
+- A/Text/CodeInline - Component with 1 elements (132×27px)
+
+### Toggle (2)
+- A/Toggle - Component with 2 elements (40×40px)
+- A/Toggle/Active - Component with 2 elements (40×40px)
+
+### Tooltip (1)
+- B/Tooltip - Component with 3 elements (120×35px)
+
+### Type (5)
+- Type: H1 - Component with 1 elements (218×51px)
+- Type: H2 - Component with 1 elements (183×44px)
+- Type: H3 - Component with 1 elements (148×36px)
+- Type: Body - Component with 1 elements (580×32px)
+- Type: Small - Component with 1 elements (236×27px)
+
